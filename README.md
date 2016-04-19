@@ -44,6 +44,6 @@ Otázky na nás:
 - ideme do toho?
   Vyzera to celkom jednoducho, cize urcite by som siel do toho. Este podla Filipovej odpovede samozrejme, ale ja som za.
 - koľko si vypýtame?
-  Podla mna skusme vypytat 1000 (je to take zaokrulene a nie o moc viac). Ked tak to spustime na 900. Ten projekt urcite nebude narocna vec, ale bude tam treba investovat cas bezpochyby. Takze pod 200 by som asi nesiel. Samozrejme cim viac, tym lepsie :).
+  Podla mna skusme vypytat 1000 dokopy(je to take zaokrulene a nie o moc viac). Ked tak to spustime na 900. Ten projekt urcite nebude narocna vec, ale bude tam treba investovat cas bezpochyby. Takze pod 200 na osobu by som asi nesiel. Samozrejme cim viac, tym lepsie :).
 
 *Matko*
