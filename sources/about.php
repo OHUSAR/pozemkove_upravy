@@ -2,7 +2,7 @@
 <html lang="sk">
 
 <?php include('functions/content_functions.php') ?>
-<?php siteHead('TODO')?>
+<?php siteHead('O pozemkových úpravách')?>
 
 <body>
     <?php include('html/header.html') ?>
