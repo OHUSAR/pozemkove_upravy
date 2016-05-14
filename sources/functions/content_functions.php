@@ -10,6 +10,9 @@ function siteHead($title){
 
         <title><?php echo $title; ?> | Pozemkové úpravy</title>
 
+        <!-- Login CSS -->
+        <link href="css/login.css" rel="stylesheet">
+
         <!-- Bootstrap Core CSS -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
 

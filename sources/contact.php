@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="sk">
 
-<?php include('content_functions/functions.php') ?>
+<?php include('functions/content_functions.php') ?>
 <?php siteHead('Kontakt')?>
 
 <body>
