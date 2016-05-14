@@ -14,7 +14,6 @@
             <div class="box">
                 <?php sectionHeading("Aktuality", "o projekte")?>
                 <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/slide-1.jpg" alt="">
                     <h2>Post Title
                         <br>
                         <small>October 13, 2013</small>
@@ -24,7 +23,6 @@
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/slide-2.jpg" alt="">
                     <h2>Post Title
                         <br>
                         <small>October 13, 2013</small>
@@ -34,7 +32,6 @@
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/slide-3.jpg" alt="">
                     <h2>Post Title
                         <br>
                         <small>October 13, 2013</small>

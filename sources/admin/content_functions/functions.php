@@ -10,15 +10,21 @@ function siteHead($title){
 
         <title><?php echo $title; ?> | Pozemkové úpravy</title>
 
+        <!-- Login CSS -->
+        <link href="../css/login.css" rel="stylesheet">
+
         <!-- Bootstrap Core CSS -->
         <link href="../css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom CSS -->
         <link href="../css/business-casual.css" rel="stylesheet">
 
+        <!-- Timeline CSS -->
+        <link href="../css/timeline.css" rel="stylesheet">
+
         <!-- Fonts -->
-        <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

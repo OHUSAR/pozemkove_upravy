@@ -18,15 +18,15 @@
                     </h2>
                     <hr>
                     <div class="col-lg-12">
-                        <form method="post">
-                            <label for="id_article">Článok</label>
-                            <br>
-                            <textarea name="article" id="id_article">
+                        <div class="form-group">
+                            <form method="post" role="form">
+                            <textarea name="article" id="id_article" class="form-control">
 
                             </textarea>
-                            <br>
-                            <input type="submit" name="submit" value="Ulož">
-                        </form>
+                                <br>
+                                <input type="submit" name="submit" value="Ulož" class="form-control">
+                            </form>
+                        </div>
                     </div>
                     <div class="col-lg-12">
                         <?php

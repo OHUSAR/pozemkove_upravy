@@ -87,12 +87,45 @@
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">Beautiful boxes
-                        <strong>to showcase your content</strong>
+                    <h2 class="intro-text text-center">Ďalšie
+                        <strong>informácie</strong>
                     </h2>
                     <hr>
-                    <p>Use as many boxes as you like, and put anything you want in them! They are great for just about anything, the sky's the limit!</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc placerat diam quis nisl vestibulum dignissim. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                    <p>
+                        V októbri 2014 sa udiali niektoré zmeny, ktoré ďalej ovplyvnili celý proces JPÚ DNV a ZB:
+                    <ul>
+                        <li>
+                            zmena vlastníckych pomerov u Navrhovateľa - odchod skupiny OPERA / REALIZ z projektu Centrop
+                        </li>
+                        <li>
+                            zmena spracovateľa JPÚ DNV a ZB.  Spoločnosť K-GEO s.r.o. (Ing. Matej Klepoch) bola nahradená
+                            spoločnosťou Geodézia Bratislava a.s., ktorá v katastrálnom území Záhorská Bystrica vykonáva aj
+                            projekt ROEP.
+                        </li>
+                        </ul>
+                    </p>
+                    <p>
+                        Po zhodnotení dovtedajšieho stavu projektu  JPÚ DNV a ZB prijal
+                        Navrhovateľ zásadné zmeny prístupu k projektu JPÚ DNV a ZB a garantuje
+                        nasledovné pravidlá platiace pre všetkých účastníkov JPÚ DNV a ZB:
+                    <ul>
+                        <li>
+                            Pravidlo 1.: len Navrhovateľ prispeje na hlavnú komunikačnú sieť a ostatné
+                            spoločné zariadenia a opatrenia (napr. pozemky pod suchý polder)- celková výmera
+                            je spolu 26,34 ha
+                        </li>
+                        <li>
+                            Pravidlo 2.: vo všetkých častiach (sektoroch) územia JPÚ DNV a ZB zostanú
+                            pôvodní vlastníci (napr. tam, kde je schválený Územný plán, biocentrum Kamenáče,
+                            smetisko a pod.)
+                        </li>
+                        <li>
+                            Pravidlo 3.: vlastníci JPÚ DNV a ZB sa budú môcť presúvať medzi sektormi len s ich
+                            vlastným súhlasom
+
+                        </li>
+                    </ul>
+                    </p>
                 </div>
             </div>
         </div>
