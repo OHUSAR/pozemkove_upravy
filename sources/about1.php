@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+about.phpabout.php<!DOCTYPE html>
 <html lang="sk">
 
 <?php include('functions/content_functions.php') ?>
@@ -12,7 +12,7 @@
         <div class="row">
             <div class="box" id="content">
                 <?php sectionHeading("Informácie ", "o pozemkových úpravách")?>
-                <?php tabbedNav(0) ?>
+                <?php tabbedNav(1) ?>
                 <div class="col-md-6">
                     <img class="img-responsive img-border-left" src="img/slide-2.jpg" alt="">
                 </div>

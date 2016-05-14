@@ -50,3 +50,30 @@ function sectionHeading($title, $subtitle){
     <?php
 }
 ?>
+
+
+<?php
+function tabbedNav($active_index) {
+   ?>
+    <div class="col-md-12" style="margin-bottom: 2%;">
+        <ul class="nav nav-tabs">
+            <li class="<?php if($active_index == 0){echo "active";} ?>" role="presentation" >
+                <a class="text-success" href="about.php#content">
+                    Základné informácie
+                </a>
+            </li>
+            <li class="<?php if($active_index == 1){echo "active";} ?>" role="presentation" >
+                <a class="text-success" href="about1.php#content">
+                    JPU DNV A ZB
+                </a>
+            </li>
+            <li class="<?php if($active_index == 2){echo "active";} ?>" role="presentation" >
+                <a class="text-success" href="about2.php#content">
+                    Sektory
+                </a>
+            </li>
+        </ul>
+    </div>
+    <?php
+}
+?>
