@@ -9,10 +9,30 @@
     <?php include('html/nav.html') ?>
 
     <div class="container">
-
         <div class="row">
             <div class="box">
                 <?php sectionHeading("Informácie ", "o pozemkových úpravách")?>
+                <!-- Tabbed navigation below <h1> -->
+                <div class="col-md-12" style="margin-bottom: 2%;">
+                    <ul class="nav nav-tabs">
+                        <li class="active" role="presentation" >
+                            <a class="text-success" href="#">
+                                Základné informácie
+                            </a>
+                        </li>
+                        <li role="presentation" >
+                            <a class="text-success" href="#">
+                                JPU DNV A ZB
+                            </a>
+                        </li>
+                        <li role="presentation" >
+                            <a class="text-success" href="#">
+                                Sektory
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
                 <div class="col-md-6">
                     <img class="img-responsive img-border-left" src="img/slide-2.jpg" alt="">
                 </div>
