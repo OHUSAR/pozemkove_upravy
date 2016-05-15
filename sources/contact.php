@@ -16,15 +16,15 @@
                 <div class="col-md-8">
                 </div>
                 <div class="col-md-4">
-                    <p>Phone:
-                        <strong>123.456.7890</strong>
+                    <p>Telefón:
+                        <strong>00421 907 659 845</strong>
                     </p>
                     <p>Email:
-                        <strong><a href="mailto:name@example.com">name@example.com</a></strong>
+                        <strong><a href="mailto:name@example.com">pozemkove@upravy.sk</a></strong>
                     </p>
-                    <p>Address:
-                        <strong>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</strong>
+                    <p>Adresa:
+                        <strong>Bajkalská 18
+                            <br>Bratislava, 812/03</strong>
                     </p>
                 </div>
                 <div class="clearfix"></div>
@@ -33,19 +33,19 @@
 
         <div class="row">
             <div class="box">
-                <?php sectionHeading("Kontakty", "úrad")?>
+                <?php sectionHeading("Kontakty", "Úrad")?>
                 <div class="col-md-8">
                 </div>
                 <div class="col-md-4">
-                    <p>Phone:
-                        <strong>123.456.7890</strong>
+                    <p>Telefón:
+                        <strong>00421 907 659 845</strong>
                     </p>
                     <p>Email:
-                        <strong><a href="mailto:name@example.com">name@example.com</a></strong>
+                        <strong><a href="mailto:name@example.com">pozemkove@upravy.sk</a></strong>
                     </p>
-                    <p>Address:
-                        <strong>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</strong>
+                    <p>Adresa:
+                        <strong>Bajkalská 18
+                            <br>Bratislava, 812/03</strong>
                     </p>
                 </div>
                 <div class="clearfix"></div>
@@ -54,19 +54,19 @@
 
         <div class="row">
             <div class="box">
-                <?php sectionHeading("Kontakty", "3")?>
+                <?php sectionHeading("Kontakty", "Geodézia")?>
                 <div class="col-md-8">
                 </div>
                 <div class="col-md-4">
-                    <p>Phone:
-                        <strong>123.456.7890</strong>
+                    <p>Telefón:
+                        <strong>00421 907 659 845</strong>
                     </p>
                     <p>Email:
-                        <strong><a href="mailto:name@example.com">name@example.com</a></strong>
+                        <strong><a href="mailto:name@example.com">pozemkove@upravy.sk</a></strong>
                     </p>
-                    <p>Address:
-                        <strong>3481 Melrose Place
-                            <br>Beverly Hills, CA 90210</strong>
+                    <p>Adresa:
+                        <strong>Bajkalská 18
+                            <br>Bratislava, 812/03</strong>
                     </p>
                 </div>
                 <div class="clearfix"></div>

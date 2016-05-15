@@ -20,7 +20,9 @@ function checkInputAndLogIn($username, $password) {
         mysql_free_result($qResAndLink[0]);
         mysql_close($qResAndLink[1]);
         // login unsuccessful
-        echo "<p class='error_order_incomplete'>Chyba! Zle ste zadali prihlasovacie meno alebo heslo.</p> \n";
+        echo "<div class='row'><div class='col-lg-12 text-center'>
+                <p class='text-danger'>Chyba! Zle ste zadali prihlasovacie meno alebo heslo.</p>
+              </div></div>";
         return false;
     }
 }

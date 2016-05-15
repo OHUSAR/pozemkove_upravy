@@ -91,7 +91,6 @@
                         <strong>informácie</strong>
                     </h2>
                     <hr>
-                    <p>
                         V októbri 2014 sa udiali niektoré zmeny, ktoré ďalej ovplyvnili celý proces JPÚ DNV a ZB:
                     <ul>
                         <li>
@@ -102,9 +101,7 @@
                             spoločnosťou Geodézia Bratislava a.s., ktorá v katastrálnom území Záhorská Bystrica vykonáva aj
                             projekt ROEP.
                         </li>
-                        </ul>
-                    </p>
-                    <p>
+                    </ul>
                         Po zhodnotení dovtedajšieho stavu projektu  JPÚ DNV a ZB prijal
                         Navrhovateľ zásadné zmeny prístupu k projektu JPÚ DNV a ZB a garantuje
                         nasledovné pravidlá platiace pre všetkých účastníkov JPÚ DNV a ZB:
@@ -125,7 +122,6 @@
 
                         </li>
                     </ul>
-                    </p>
                 </div>
             </div>
         </div>

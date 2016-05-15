@@ -14,7 +14,7 @@
                 <?php sectionHeading("Informácie ", "o pozemkových úpravách")?>
                 <?php tabbedNav(0) ?>
                 <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="img/slide-2.jpg" alt="">
+                    <img class="img-responsive img-border-left" src="img/slide-1.jpg" alt="">
                 </div>
                 <div class="col-md-6">
                     <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.</p>

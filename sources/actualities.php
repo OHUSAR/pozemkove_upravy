@@ -42,9 +42,9 @@
                 </div>
                 <div class="col-lg-12 text-center">
                     <ul class="pager">
-                        <li class="previous"><a href="#">&larr; Older</a>
+                        <li class="previous"><a class="text-success" href="#">&larr; Older</a>
                         </li>
-                        <li class="next"><a href="#">Newer &rarr;</a>
+                        <li class="next"><a class="text-success" href="#">Newer &rarr;</a>
                         </li>
                     </ul>
                 </div>
