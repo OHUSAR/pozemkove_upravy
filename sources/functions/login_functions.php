@@ -46,7 +46,7 @@ function dbConnectAndExecQuerry($sqlQuery) {
 }
 
 function linkToDB() {
-    if ($dbLink = mysql_connect('localhost', 'root', '')) {
+    if ($dbLink = mysql_connect('localhost', 'ofm', 'land9edit')) {
         if (mysql_select_db('land_edit', $dbLink)) {
             // database selection successful
             mysql_query("SET CHARACTER SET 'utf8'", $dbLink);
