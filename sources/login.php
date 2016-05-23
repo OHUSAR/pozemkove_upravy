@@ -21,10 +21,13 @@
             <div class="col-lg-12">
                 <?php
                 if (isset($_POST["loginFormSubmit"])) {
+
                     $_POST["username"] = addslashes(strip_tags(trim($_POST["username"])));
                     $_POST["password"] = addslashes(strip_tags(trim($_POST["password"])));
                     // call function to determine if login data are correct and log user in
-                    checkInputAndLogIn($_POST["username"], $_POST["password"]);
+                    if(checkInputAndLogIn($_POST["username"], $_POST["password"])){
+                        header('Location: private.php');
+                };
                 }
                 ?>
                 <div class="login-page">
