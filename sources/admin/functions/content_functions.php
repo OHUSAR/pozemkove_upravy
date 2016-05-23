@@ -22,6 +22,8 @@ function siteHead($title){
         <!-- Timeline CSS -->
         <link href="../css/timeline.css" rel="stylesheet">
 
+        <link rel="stylesheet" href="../css/jquery.datetimepicker.css">
+
         <!-- Fonts -->
         <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
