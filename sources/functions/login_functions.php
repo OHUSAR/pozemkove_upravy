@@ -34,18 +34,18 @@ function dbConnectAndExecQuerry($sqlQuery) {
             return array($queryResult, $dbLink);
         } else {
             // querry unsuccessful
-            echo "Error while conducting query";
+            // echo "Error while conducting query";
             return false;
         }
     } else {
         // link unsucessful
-        echo "Error while connecting to database";
+        // echo "Error while connecting to database";
         return false;
     }
 }
 
 function linkToDB() {
-    if ($dbLink = mysql_connect('localhost', 'ofm', 'land9edit')) {
+    if ($dbLink = mysql_connect('localhost', 'root', '')) {
         if (mysql_select_db('land_edit', $dbLink)) {
             // database selection successful
             mysql_query("SET CHARACTER SET 'utf8'", $dbLink);
@@ -59,5 +59,3 @@ function linkToDB() {
         return false;
     }
 }
-
-?>
