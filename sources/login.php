@@ -26,7 +26,8 @@
                     $_POST["password"] = addslashes(strip_tags(trim($_POST["password"])));
                     // call function to determine if login data are correct and log user in
                     if(checkInputAndLogIn($_POST["username"], $_POST["password"])){
-                        header('Location: private.php');
+                        $_SESSION['name'] = $_POST["username"];
+                        header('Location: private/index.php');
                 };
                 }
                 ?>
