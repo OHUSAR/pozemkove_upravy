@@ -2,5 +2,5 @@
 session_start();
 ?>
 
-<div class="brand">Vitajte: <?php echo $_SESSION['name']?></div>
-<div class="address-bar">Záhorská Bystrica | Devínska Nová Ves | Centrop</div>
+<div class="brand"><?php echo $_SESSION['name']?></div>
+<div class="address-bar">Vitajte v súkromnom sektore</div>

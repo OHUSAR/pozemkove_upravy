@@ -16,8 +16,12 @@
             <div class="col-lg-12">
                 <?php sectionHeading("Pred", "pozemkovými úpravami")?>
                 <p>
-                    Ste prihlaseny v sukromej casti. Vitajte
+                    Ste prihlaseny v sukromej casti. Obrazok:
                 </p>
+                <div class="col-lg-12">
+                    <embed style = "margin:auto;" src="img/Popelkova_Eva_Grafika.pdf" width="800px" height="800px"></embed>
+                </div>
+
             </div>
         </div>
     </div>
