@@ -14,7 +14,7 @@
         <div class="row">
             <div class="box">
                 <div class="col-lg-12">
-                    <?php getArticle(); ?>
+                    <?php getArticleList(); ?>
                 </div>
             </div>
         </div>
