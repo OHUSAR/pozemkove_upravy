@@ -1,7 +1,7 @@
 <?php
 function sendMailToAllSubscribed() {
 
-    $to = 'ondrej@husar.com'; // TODO retrieve email-addresses from database
+    $to = 'ondrej@husar.sk'; // TODO retrieve email-addresses from database
 
     $subject = 'Na stránke www.pozemkoveupravy.sk pribudol nový článok.';
 
