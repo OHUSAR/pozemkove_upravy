@@ -17,9 +17,6 @@
                 <?php getArticle(); ?>
             </div>
             <hr>
-            <p class="text-center">
-                <a href="send_mail.php">Pošli mail</a>
-            </p>
         </div>
     </div>
 </div>
