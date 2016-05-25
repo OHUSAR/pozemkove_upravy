@@ -3,6 +3,7 @@
 
 <?php include('functions/content_functions.php') ?>
 <?php include('functions/article_functions.php') ?>
+<?php include('functions/email_functions.php') ?>
 <?php siteHead("Admin")?>
 
     <body>

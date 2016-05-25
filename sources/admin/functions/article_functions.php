@@ -50,6 +50,7 @@ function getArticle() {
     $qResAndLink = dbConnectAndExecQuerry($sqlQuery);
     $result = $qResAndLink[0];
 
+    $id = "";
     $author = "";
     $heading = "";
     $date = "";
@@ -59,11 +60,14 @@ function getArticle() {
         $heading = $row["heading"];
         $date = $row["date_published"];
         $content = $row["content"];
+        $id = $row["id"];
     }
 
     ?>
     <div class="col-lg-12 text-center">
         <div class="col-lg-12">
+            <a href="delete.php?id=<?php echo $id ?>">Vymaž<i class="glyphicon-minus"></i></a> |
+            <a href="edit.php?id=<?php echo $id ?>">Uprav<i class="glyphicon-pencil"></i></a>
             <hr>
             <h2><?php echo $heading; ?></h2> od <h4><?php echo $author; ?></h4>
         </div>
@@ -143,4 +147,14 @@ function getArticleList() {
         </ul>
     </div>
     <?php
+}
+
+function deleteArticle() {
+    if(isset($_GET['id']) && is_numeric($_GET['id'])){
+        $id = $_GET['id'];
+    }
+
+    $sqlQuery = "DELETE FROM `articles` WHERE id=".$id.";";
+    $qResAndLink = dbConnectAndExecQuerry($sqlQuery);
+    return $qResAndLink[0];
 }

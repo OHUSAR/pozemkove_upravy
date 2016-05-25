@@ -3,6 +3,7 @@
 
 <?php include('functions/content_functions.php') ?>
 <?php include('functions/article_functions.php') ?>
+<?php include('functions/email_functions.php') ?>
 <?php siteHead("Admin")?>
 
 <body>
@@ -14,12 +15,13 @@
     <div class="row">
         <div class="box">
             <div class="col-lg-12">
-                <?php getArticle(); ?>
+                <?php
+                if(sendMailToAllSubscribed()){
+                    echo "Email bol odoslaný.";
+                } else {
+                    echo "Vyskytla sa chyba.";
+                } ?>
             </div>
-            <hr>
-            <p class="text-center">
-                <a href="send_mail.php">Pošli mail</a>
-            </p>
         </div>
     </div>
 </div>

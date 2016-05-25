@@ -14,12 +14,15 @@
     <div class="row">
         <div class="box">
             <div class="col-lg-12">
-                <?php getArticle(); ?>
+                <?php
+                if(deleteArticle()) {
+                    echo "<p class='text-success text-center'>Článok bol úspešne vymazaný.</p>";
+                }
+                else {
+                    echo "<p class='text-alert text-center'>Pri mazaní nastala chyba.</p>";
+                }
+                ?>
             </div>
-            <hr>
-            <p class="text-center">
-                <a href="send_mail.php">Pošli mail</a>
-            </p>
         </div>
     </div>
 </div>

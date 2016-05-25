@@ -42,16 +42,16 @@
                             <span class="icon-next"></span>
                         </a>
                     </div>
-                    <h2 class="brand-before">
-                        <small>Pozemkové úpravy</small>
-                    </h2>
-                    <h1 class="brand-name">DNV a ZB</h1>
+                    <h2 class="brand-before">Jednoduché pozemkové úpravy</h2>
+                    <h1 class="brand-name">
+                        <small>v časti katastrálneho územia Záhorská Bystrica a Devínska Nová Ves</small>
+                    </h1>
                     <hr class="tagline-divider">
-                    <h2>
-                        <small>od
-                            <strong>firmy Centrop</strong>
-                        </small>
-                    </h2>
+<!--                    <h2>-->
+<!--                        <small>od-->
+<!--                            <strong>firmy Centrop</strong>-->
+<!--                        </small>-->
+<!--                    </h2>-->
                 </div>
             </div>
         </div>
@@ -59,8 +59,8 @@
         <div class="row">
             <div class="box">
                 <div class="col-lg-12">
-                    <?php sectionHeading("Vitajte", "u nás")?>
-                    <img class="img-responsive img-border img-left" src="img/centrop_logo.jpg" alt="">
+                    <?php sectionHeading("O čom je táto stránka", "")?>
+<!--                    <img class="img-responsive img-border img-left" src="img/centrop_logo.jpg" alt="">-->
                     <hr class="visible-xs">
                     <p>
                         V časti katastrálneho územia Devínska Nová Ves a v časti katastrálneho územia
@@ -91,34 +91,45 @@
                         <strong>informácie</strong>
                     </h2>
                     <hr>
-                        V októbri 2014 sa udiali niektoré zmeny, ktoré ďalej ovplyvnili celý proces JPÚ DNV a ZB:
+                    <p>V októbri 2014 sa udiali niektoré zmeny, ktoré ďalej ovplyvnili celý proces JPÚ DNV a ZB:</p>
+
                     <ul>
                         <li>
-                            zmena vlastníckych pomerov u Navrhovateľa - odchod skupiny OPERA / REALIZ z projektu Centrop
+                            <p>zmena vlastníckych pomerov u Navrhovateľa - odchod skupiny OPERA / REALIZ z projektu Centrop</p>
                         </li>
                         <li>
+                            <p>
                             zmena spracovateľa JPÚ DNV a ZB.  Spoločnosť K-GEO s.r.o. (Ing. Matej Klepoch) bola nahradená
                             spoločnosťou Geodézia Bratislava a.s., ktorá v katastrálnom území Záhorská Bystrica vykonáva aj
                             projekt ROEP.
+                            </p>
                         </li>
                     </ul>
+                    <p>
                         Po zhodnotení dovtedajšieho stavu projektu  JPÚ DNV a ZB prijal
                         Navrhovateľ zásadné zmeny prístupu k projektu JPÚ DNV a ZB a garantuje
                         nasledovné pravidlá platiace pre všetkých účastníkov JPÚ DNV a ZB:
+                    </p>
                     <ul>
                         <li>
+                            <p>
                             Pravidlo 1.: len Navrhovateľ prispeje na hlavnú komunikačnú sieť a ostatné
                             spoločné zariadenia a opatrenia (napr. pozemky pod suchý polder)- celková výmera
                             je spolu 26,34 ha
+                            </p>
                         </li>
                         <li>
+                            <p>
                             Pravidlo 2.: vo všetkých častiach (sektoroch) územia JPÚ DNV a ZB zostanú
                             pôvodní vlastníci (napr. tam, kde je schválený Územný plán, biocentrum Kamenáče,
                             smetisko a pod.)
+                            </p>
                         </li>
                         <li>
+                            <p>
                             Pravidlo 3.: vlastníci JPÚ DNV a ZB sa budú môcť presúvať medzi sektormi len s ich
                             vlastným súhlasom
+                            </p>
 
                         </li>
                     </ul>
@@ -126,6 +137,16 @@
             </div>
         </div>
 
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">Ďalšie
+                        <strong>informácie</strong>
+                    </h2>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- /.container -->
 
