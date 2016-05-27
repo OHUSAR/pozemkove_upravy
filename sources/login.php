@@ -2,7 +2,7 @@
 <html lang="sk">
 
 <?php
-    session_start();
+session_start();
     include('functions/login_functions.php');
     include('functions/content_functions.php');
 ?>
