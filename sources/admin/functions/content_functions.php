@@ -39,4 +39,18 @@ function siteHead($title){
 }
 ?>
 
+<?php
+function sectionHeading($title, $subtitle){
+    ?>
+    <div class="col-lg-12">
+        <hr>
+        <h2 class="intro-text text-center"><?php echo $title; ?>
+            <strong><?php echo $subtitle; ?></strong>
+        </h2>
+        <hr>
+    </div>
+    <?php
+}
+?>
+
 
