@@ -5,7 +5,6 @@ include('functions/content_functions.php');
 siteHead("Timeline");
 ?>
 
-
 <body>
 <?php include('html/header.html') ?>
 <?php include('html/nav.html') ?>
@@ -23,12 +22,14 @@ siteHead("Timeline");
                         <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                                <p><small class="text-muted"><i class="glyphicon glyphicon-star"></i> 12. 12. 2015 </small></p>
+                                <h4 class="timeline-title">POVOLENIE JPÚ DNV a ZB</h4>
+                                <p><small class="text-muted"><i class="glyphicon glyphicon-star"></i>  24. 01. 2012 </small></p>
                             </div>
                             <div class="timeline-body">
-                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
-                                    Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                <p>
+                                    JPÚ DNV a ZB  boli povolené Rozhodnutím Obvodného pozemkového úradu v Bratislave Zn.
+                                    1154/09/0156/12/KVA zo dňa 24.1.2012.
+                                </p>
                             </div>
                         </div>
                     </li>
@@ -36,12 +37,11 @@ siteHead("Timeline");
                         <div class="timeline-badge success"><i class="glyphicon glyphicon-dashboard"></i></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                                <p><small class="text-muted"><i class="glyphicon glyphicon-star"></i> 24. 12. 2015 </small></p>
+                                <h4 class="timeline-title">HRANICA OBVODU PROJEKTU POZEMKOVÝCH ÚPRAV</h4>
+                                <p><small class="text-muted"><i class="glyphicon glyphicon-star"></i> 22. 02. 2013 </small></p>
                             </div>
                             <div class="timeline-body">
-                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
-                                    Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                TODO
                             </div>
                         </div>
                     </li>
@@ -49,26 +49,27 @@ siteHead("Timeline");
                         <div class="timeline-badge info"><i class="glyphicon glyphicon-globe"></i></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                                <p><small class="text-muted"><i class="glyphicon glyphicon-star"></i> 1. 1. 2015 </small></p>
+                                <h4 class="timeline-title">ÚČELOVÉ MAPOVANIE POLOHOPISU A VÝŠKOPISU</h4>
+                                <p><small class="text-muted"><i class="glyphicon glyphicon-star"></i> 22. 02. 2013 </small></p>
 
                             </div>
                             <div class="timeline-body">
-                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
-                                    Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                                <hr>
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
-                                        <i class="glyphicon glyphicon-lamp"></i> <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu" role="menu">
-                                        <li><a href="#">Action</a></li>
-                                        <li><a href="#">Another action</a></li>
-                                        <li><a href="#">Something else here</a></li>
-                                        <li class="divider"></li>
-                                        <li><a href="#">Separated link</a></li>
-                                    </ul>
-                                </div>
+                                <p>
+                                    Celé územie sa podrobne zmapuje (pretože stav katastrálnych máp je veľmi málo aktuálny).
+                                </p>
+<!--                                <hr>-->
+<!--                                <div class="btn-group">-->
+<!--                                    <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">-->
+<!--                                        <i class="glyphicon glyphicon-lamp"></i> <span class="caret"></span>-->
+<!--                                    </button>-->
+<!--                                    <ul class="dropdown-menu" role="menu">-->
+<!--                                        <li><a href="#">Action</a></li>-->
+<!--                                        <li><a href="#">Another action</a></li>-->
+<!--                                        <li><a href="#">Something else here</a></li>-->
+<!--                                        <li class="divider"></li>-->
+<!--                                        <li><a href="#">Separated link</a></li>-->
+<!--                                    </ul>-->
+<!--                                </div>-->
                             </div>
                         </div>
                     </li>
@@ -77,13 +78,134 @@ siteHead("Timeline");
                         <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                                <p><small class="text-muted"><i class="glyphicon glyphicon-star"></i> 5. 3. 2015 </small></p>
+                                <h4 class="timeline-title">MAPA HODNOTY POZEMKOV</h4>
+                                <p><small class="text-muted"><i class="glyphicon glyphicon-star"></i> 11. 12. 2012 </small></p>
 
                             </div>
                             <div class="timeline-body">
-                                <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo.
-                                    Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                <p>
+                                    vyhotoví sa tzv. register pôvodného stavu - súpis všetkých pozemkov každého vlastníka
+                                    aj s určením ich hodnoty cez BPEJ – v tejto etape dostal vlastník výpis z registra
+                                    pôvodného stavu spolu s hodnotami svojich pozemkov. Táto hodnota slúži len na účely
+                                    pozemkových úprav, nie je to trhová cena.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">REGISTER PÔVODNÉHO STAVU</h4>
+                                <p><small class="text-muted"><i class="glyphicon glyphicon-star"></i> 13. 06. 2013</small></p>
+
+                            </div>
+                            <div class="timeline-body">
+                                <p>
+                                    TODO
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">VŠEOBECNÉ ZÁSADY FUNKČNÉHO USPORIADANIA (VZFÚ)</h4>
+                                <p><small class="text-muted"><i class="glyphicon glyphicon-star"></i> 03.02.2015; 19.04.2016 </small></p>
+
+                            </div>
+                            <div class="timeline-body">
+                                <p>
+                                    V nich sa určí, ako chceme mať funkčne usporiadanú krajinu - komunikačná kostra
+                                    (poľné cesty, aj cyklotrasy), protierózne a ekologické opatrenia
+                                    (biokoridory, líniové prvky, medze...), vodohospodárske  zariadenia (nádržky, poldre...).
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">NÁVRH NOVÉHO USPORIADANIA</h4>
+                                <p><small class="text-muted"><i class="glyphicon glyphicon-star"></i> 2016 </small></p>
+
+                            </div>
+                            <div class="timeline-body">
+                                <ul>
+                                    <li>
+                                        Nasledovné etapy sú ťažiskové, pretože až teraz bude potrebné vykonať  hlavné činnosti
+                                        a to rokovania s vlastníkmi o zásadách umiestnenia nových pozemkov,  rokovania s vlastníkmi
+                                        o umiestnení  ich nových pozemkov, vytýčenie lomových bodov hraníc nových pozemkov a
+                                        zápis projektu do KN.
+                                    </li>
+                                    <li>
+                                        Spracuje sa návrh Zásad pre umiestnenie nových pozemkov a prerokuje sa s prípravným výborom.
+                                    </li>
+                                    <li>
+                                        Prerokuje sa Návrh zásad pre umiestnenie nových pozemkov (ZUNP) so
+                                        všetkými účastníkmi na základe ich oficiálneho predvolania správnym orgánom
+                                        a za účasti spracovateľa na osobné rokovanie.
+                                    </li>
+                                    <li>
+                                        Dopracuje sa VZFU do podrobností Plánu spoločných zariadení a opatrení na základe
+                                        schválených ZUNP.
+
+                                    </li>
+                                    <li>
+                                        Vypracuje sa návrh nového umiestnenia pozemkov vlastníkov v súlade
+                                        s požiadavkami investora, so schválenými ZUNP a zákonnými obmedzeniami.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">VYKONANIE PROJEKTU</h4>
+                                <p><small class="text-muted"><i class="glyphicon glyphicon-star"></i> 2017 </small></p>
+
+                            </div>
+                            <div class="timeline-body">
+                                <ul>
+                                    <li>
+                                        Prerokuje sa návrhu registra nového stavu (RNS) so všetkými vlastníkmi na základe
+                                        ich oficiálneho predvolania správnym orgánom za účasti spracovateľa na osobné rokovanie
+                                    </li>
+                                    <li>
+                                        Opätovné prerokovanie požiadaviek vlastníkov -
+                                        v prípade potreby po prvom osobnom prerokovaní
+                                    </li>
+                                    <li>
+                                        Dopracuje sa RNS a zverejní sa a zašlú sa výpisy z RNS každému známemu vlastníkovi
+                                    </li>
+                                    <li>
+                                        Prerokujú sa pripomienky k RNS, vydajú sa rozhodnutia správnym orgánom,
+                                        zapracujú sa pripomienky do RNS
+                                    </li>
+                                    <li>
+                                        Schváli sa RNS, projekt PÚ, rozhodnutím správneho orgánu
+                                    </li>
+                                    <li>
+                                        Nariadi sa vykonanie projektu PÚ rozhodnutím správneho orgánu<
+                                        /p>
+                                    <li>
+                                        Prerokuje sa postupu prechodu na nové hospodárenie a pripravia sa
+                                        vytýčenia nových hraníc pozemkov
+                                    </li>
+                                    <li>
+                                        Vytýčia sa hranice nových pozemkov podľa požiadaviek účastníkov
+                                    </li>
+                                    <li>
+                                        Schváli sa vykonania projektu PÚ rozhodnutím správneho orgánu
+                                    </li>
+                                    <li>
+                                        Vypracuje sa elaborát na zápis projektu PÚ do KN
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </li>

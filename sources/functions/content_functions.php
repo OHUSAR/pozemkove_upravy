@@ -59,12 +59,12 @@ function tabbedNav($active_index) {
         <ul class="nav nav-tabs">
             <li class="<?php if($active_index == 0){echo "active";} ?>" role="presentation" >
                 <a class="text-success" href="about.php#content">
-                    Základné informácie
+                    Všeobecne
                 </a>
             </li>
             <li class="<?php if($active_index == 1){echo "active";} ?>" role="presentation" >
                 <a class="text-success" href="about1.php#content">
-                    JPU DNV A ZB
+                    JPÚ DNV A ZB
                 </a>
             </li>
             <li class="<?php if($active_index == 2){echo "active";} ?>" role="presentation" >
@@ -74,7 +74,12 @@ function tabbedNav($active_index) {
             </li>
             <li class="<?php if($active_index == 3){echo "active";} ?>" role="presentation" >
                 <a class="text-success" href="timeline.php#content">
-                    Timeline
+                    Časová os
+                </a>
+            </li>
+            <li class="<?php if($active_index == 4){echo "active";} ?>" role="presentation" >
+                <a class="text-success" href="about4.php#content">
+                    Územný plán
                 </a>
             </li>
         </ul>
