@@ -29,7 +29,7 @@ function getArticle() {
 
     ?>
     <div class="col-lg-12 text-center" xmlns="http://www.w3.org/1999/html">
-        <div class="col-lg-12">S
+        <div class="col-lg-12">
             <hr>
             <h2><?php echo $heading; ?></h2> od <h4><?php echo $author; ?></h4>
         </div>
