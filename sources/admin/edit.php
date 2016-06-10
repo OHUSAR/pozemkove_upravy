@@ -30,9 +30,9 @@ if(! isset($_SESSION['admin'])){
 <script>
     tinymce.init({
         selector: "textarea",  // change this value according to your HTML
-        toolbar1: 'undo redo | styleselect | bold italic | image',
+        toolbar1: 'undo redo | styleselect | bold italic | image link',
         toolbar2: 'alignleft aligncenter alignright',
-        plugins: "image imagetools"
+        plugins: "image imagetools link"
     });
 
     $('#id_date').datepicker({
