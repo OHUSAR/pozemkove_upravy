@@ -14,6 +14,7 @@
             <div class="box">
                 <?php sectionHeading("Kontakty", "SPRÁVNY (POVOĽOVACÍ) ORGÁN")?>
                 <div class="col-md-4">
+                    <img class="img-responsive img-border-left" src="img/plo.png" alt="">
                 </div>
                 <div class="col-md-8">
                     <h4>
@@ -44,6 +45,7 @@
             <div class="box">
                 <?php sectionHeading("Kontakty", "ZHOTOVITEĽ")?>
                 <div class="col-md-4">
+                    <img class="img-responsive img-border-left" src="img/geodezia.png" alt="">
                 </div>
                 <div class="col-md-8">
                     <h4>
@@ -95,6 +97,7 @@
             <div class="box">
                 <?php sectionHeading("Kontakty", "NAVRHOVATEĽ")?>
                 <div class="col-md-4">
+                    <img class="img-responsive img-border-left" src="img/centrop.jpg" alt="">
                 </div>
                 <div class="col-md-8">
                     <h4>
