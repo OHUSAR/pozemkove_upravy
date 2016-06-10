@@ -1,7 +1,5 @@
 <?php
 
-include ('./article_functions.php');
-
 function getArticle() {
     if(isset($_GET['id']) && is_numeric($_GET['id'])){
         $article_id = $_GET['id'];
