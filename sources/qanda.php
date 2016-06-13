@@ -2,6 +2,7 @@
 <html lang="sk">
 
 <?php include('functions/content_functions.php') ?>
+<?php include('functions/article_functions.php') ?>
 <?php siteHead('Kontakt')?>
 
 <body>
@@ -14,21 +15,15 @@
             <div class="box">
                 <?php tabbedContactNav(1); ?>
                 <?php sectionHeading("Často kladené otázky", "")?>
-
-                <div class="col-md-12">
-
-                </div>
-                <div class="clearfix"></div>
+        	<?php getQandA(); ?>	    
+	        <div class="clearfix"></div>
             </div>
         </div>
 
         <div class="row" id="content">
             <div class="box">
                 <?php sectionHeading("Opýtajte sa nás", "")?>
-
-                <div class="col-md-12">
-                    <?php getQandA(); ?>
-                </div>
+		<div class="col-lg-12"></div>
                 <div class="clearfix"></div>
             </div>
         </div>
