@@ -99,7 +99,7 @@ siteHead("Timeline");
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+                        <div class="timeline-badge info"><i class="glyphicon glyphicon-globe"></i></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4 class="timeline-title">REGISTER PÔVODNÉHO STAVU</h4>
@@ -126,7 +126,7 @@ siteHead("Timeline");
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+                        <div class="timeline-badge"><i class="glyphicon glyphicon-star"></i></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4 class="timeline-title">VŠEOBECNÉ ZÁSADY FUNKČNÉHO USPORIADANIA (VZFÚ)</h4>
@@ -157,7 +157,7 @@ siteHead("Timeline");
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+                        <div class="timeline-badge info"><i class="glyphicon glyphicon-thumbs-up"></i></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4 class="timeline-title">NÁVRH NOVÉHO USPORIADANIA</h4>
@@ -194,7 +194,7 @@ siteHead("Timeline");
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+                        <div class="timeline-badge success"><i class="glyphicon glyphicon-globe"></i></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4 class="timeline-title">VYKONANIE PROJEKTU</h4>
