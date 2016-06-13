@@ -133,7 +133,6 @@
         <div class="box">
             <div class="col-lg-12">
                 <?php sectionHeading("Rozloha", "")?>
-                <!--                    <img class="img-responsive img-border img-left" src="img/centrop_logo.jpg" alt="">-->
                 <hr class="visible-xs">
                 <p>
                     JPÚ DNV a ZB sú realizované na území o rozlohe 603,05 ha, z toho:
@@ -147,7 +146,7 @@
                         v katastrálnom území <b>Devínska Nová Ves</b>:	46,35 ha ( 7,7 %)
                     </li>
                 </ul>
-
+                <img class="img-responsive img-border img-left" src="img/1mapa.png" alt="mapa">
             </div>
         </div>
     </div>
@@ -236,12 +235,13 @@
         <div class="box">
             <div class="col-lg-12">
                 <?php sectionHeading("Územný plán", "")?>
-                <!--                    <img class="img-responsive img-border img-left" src="img/centrop_logo.jpg" alt="">-->
                 <hr class="visible-xs">
                 <p>
                     Územie v rozsahu  JPÚ DNV a ZB  je zahrnuté v Územnom pláne mesta Bratislavy.
                     <br>
+                    <a href="img/3upi.pdf" download="UPI.pdf">Stiahnite si dokument o územnom pláne</a>
                 </p>
+                <img class="img-responsive img-border img-left" src="img/2obvod.png" alt="obvod">
 
             </div>
         </div>

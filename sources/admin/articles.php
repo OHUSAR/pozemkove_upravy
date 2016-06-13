@@ -22,7 +22,7 @@ if(! isset($_SESSION['admin'])){
         <div class="row">
             <div class="box">
                 <div class="col-lg-12">
-                    <?php getArticleList(); ?>
+                    <?php getArticleList(1); ?>
                 </div>
             </div>
         </div>

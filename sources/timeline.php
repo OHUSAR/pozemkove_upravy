@@ -27,8 +27,10 @@ siteHead("Timeline");
                             </div>
                             <div class="timeline-body">
                                 <p>
-                                    JPÚ DNV a ZB  boli povolené Rozhodnutím Obvodného pozemkového úradu v Bratislave Zn.
-                                    1154/09/0156/12/KVA zo dňa 24.1.2012.
+                                    <a href="img/10text.pdf" download="rozhodnutie.pdf">
+                                        JPÚ DNV a ZB  boli povolené Rozhodnutím Obvodného pozemkového úradu v Bratislave Zn.
+                                        1154/09/0156/12/KVA zo dňa 24.1.2012.
+                                    </a>
                                 </p>
                             </div>
                         </div>
@@ -41,7 +43,9 @@ siteHead("Timeline");
                                 <p><small class="text-muted"><i class="glyphicon glyphicon-star"></i> 22. 02. 2013 </small></p>
                             </div>
                             <div class="timeline-body">
-                                TODO
+                                <a href="img/11technicka-sprava.pdf" download="tech-sprava.pdf">Technická správa</a>
+                                a obvod projektu:
+                                <img class="img-responsive img-border-left" src="img/12obvod_projektu_grafika.png" alt="">
                             </div>
                         </div>
                     </li>
@@ -57,7 +61,8 @@ siteHead("Timeline");
                                 <p>
                                     Celé územie sa podrobne zmapuje (pretože stav katastrálnych máp je veľmi málo aktuálny).
                                 </p>
-<!--                                <hr>-->
+                                <img class="img-responsive img-border-left" src="img/13zameranie_uzemia.png" alt="">
+                                <!--                                <hr>-->
 <!--                                <div class="btn-group">-->
 <!--                                    <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">-->
 <!--                                        <i class="glyphicon glyphicon-lamp"></i> <span class="caret"></span>-->
@@ -89,6 +94,7 @@ siteHead("Timeline");
                                     pôvodného stavu spolu s hodnotami svojich pozemkov. Táto hodnota slúži len na účely
                                     pozemkových úprav, nie je to trhová cena.
                                 </p>
+                                <img class="img-responsive img-border-left" src="img/14mapa_hodnoty_grafika.png" alt="">
                             </div>
                         </div>
                     </li>
@@ -102,7 +108,19 @@ siteHead("Timeline");
                             </div>
                             <div class="timeline-body">
                                 <p>
-                                    TODO
+                                    <a href="img/15rps_technicka_sprava.pdf" download="tech-sprava.pdf">
+                                        Technická správa
+                                    </a>
+                                </p>
+                                <hr>
+                                <p>
+                                    RPS:
+                                    <img class="img-responsive img-border-left" src="img/16rps.png" alt="grafika">
+                                </p>
+                                <hr>
+                                <p>
+                                    Prehľad kladu máp:
+                                    <img class="img-responsive img-border-left" src="img/17rps_prehlad_kladu_map.png" alt="prehlad">
                                 </p>
                             </div>
                         </div>
@@ -120,6 +138,20 @@ siteHead("Timeline");
                                     V nich sa určí, ako chceme mať funkčne usporiadanú krajinu - komunikačná kostra
                                     (poľné cesty, aj cyklotrasy), protierózne a ekologické opatrenia
                                     (biokoridory, líniové prvky, medze...), vodohospodárske  zariadenia (nádržky, poldre...).
+                                </p>
+                                <p>
+                                    <a href="img/18VV%20VZFU%20JPU%20Zahorska%20Byst.%20a%20Devinska_N_V.pdf"
+                                       download="rozhodnutie.pdf">
+                                        Rozhodnutie
+                                    </a>
+                                </p>
+                                <p>
+                                    <a href="img/19%20-1%20TS%20VZFU.pdf" download="tech-sprava.pdf">
+                                        Technická správa
+                                    </a>
+                                </p>
+                                <p>
+                                    <img class="img-responsive img-border-left" src="img/20grafika.png" alt="prehlad">
                                 </p>
                             </div>
                         </div>

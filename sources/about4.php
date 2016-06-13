@@ -14,7 +14,7 @@ about.phpabout.php<!DOCTYPE html>
                 <?php sectionHeading("Informácie ", "o pozemkových úpravách")?>
                 <?php tabbedNav(4) ?>
                 <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="img/slide-3.jpg" alt="">
+                    <img class="img-responsive img-border-left" src="img/2obvod.png" alt="">
                 </div>
                 <div class="col-md-6">
                     <p>
@@ -32,6 +32,9 @@ about.phpabout.php<!DOCTYPE html>
                         <li>trvalé trávnaté porasty, číslo funkcie 1204</li>
                         <li>orná pôda, číslo funkcie 1205</li>
                     </ul>
+                    <p>
+                        <a href="img/3upi.pdf" download="UPI.pdf">Stiahnite si dokument o územnom pláne</a>
+                    </p>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -58,6 +61,9 @@ about.phpabout.php<!DOCTYPE html>
                         podmienkou pre zaradenie do balíka najbližších zmien a doplnkov územného plánu, a v rámci
                         v JPÚ DNV a ZB je táto lokalita súčasťou sektoru 4 – POTENCIÁLNA ROZVOJOVÁ PLOCHA CENTROP.
                     </p>
+                </div>
+                <div class="col-md-12">
+                    <img class="img-responsive img-border-left" src="img/23regulacny.png" alt="regulacny vykres">
                 </div>
                 <div class="clearfix"></div>
             </div>

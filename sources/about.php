@@ -58,7 +58,7 @@
                     </ul>
                 </div>
                 <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="img/slide-1.jpg" alt="img">
+                    <img class="img-responsive img-border-left" src="img/7.jpg" alt="img">
                 </div>
                 <div class="clearfix"></div>
             </div>

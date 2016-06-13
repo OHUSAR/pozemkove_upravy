@@ -14,7 +14,7 @@ about.phpabout.php<!DOCTYPE html>
             <?php sectionHeading("Informácie ", "o pozemkových úpravách")?>
             <?php tabbedNav(2) ?>
             <div class="col-md-6">
-                <img class="img-responsive img-border-left" src="img/slide-3.jpg" alt="">
+                <img class="img-responsive img-border-left" src="img/8bloky.png" alt="">
             </div>
             <div class="col-md-6">
                 <div class="panel-group" id="accordion">
@@ -22,7 +22,7 @@ about.phpabout.php<!DOCTYPE html>
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-target="#collapseOne"
-                                   href="#collapseOne">
+                                   href="#collapseOne" style="color: #d9dad9;">
                                     1. SEKTOR PRIEMYSELNÝ PARK (PP)
                                 </a>
                             </h4>
@@ -73,7 +73,7 @@ about.phpabout.php<!DOCTYPE html>
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-target="#collapseTwo"
-                                   href="#collapseTwo" class="collapsed">
+                                   href="#collapseTwo" class="collapsed" style="color: #fa0202;">
                                     2. SEKTOR  RONDEL  (KARPATIA)
                                 </a>
                             </h4>
@@ -129,7 +129,7 @@ about.phpabout.php<!DOCTYPE html>
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-target="#collapseThree"
-                                   href="#collapseThree" class="collapsed">
+                                   href="#collapseThree" class="collapsed" style="color: #b50101;">
                                     3. SEKTOR  TRIANGEL
                                 </a>
                             </h4>
@@ -185,7 +185,7 @@ about.phpabout.php<!DOCTYPE html>
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-target="#collapse4"
-                                   href="#collapse4" class="collapsed">
+                                   href="#collapse4" class="collapsed" style="color: #747772;">
                                     4. SEKTOR  POTENCIÁLNA  ROZVOJOVÁ  PLOCHA  CENTROP
                                 </a>
                             </h4>
@@ -240,7 +240,7 @@ about.phpabout.php<!DOCTYPE html>
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-target="#collapse5"
-                                   href="#collapse5" class="collapsed">
+                                   href="#collapse5" class="collapsed" style="color: #FF9F7D;">
                                     5. SEKTOR  SKLÁDKA
                                 </a>
                             </h4>
@@ -296,7 +296,7 @@ about.phpabout.php<!DOCTYPE html>
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-target="#collapse6"
-                                   href="#collapse6" class="collapsed">
+                                   href="#collapse6" class="collapsed" style="color: #0000C9;">
                                     6. SEKTOR  OCHRANNÉ PÁSMA
                                 </a>
                             </h4>
@@ -355,7 +355,7 @@ about.phpabout.php<!DOCTYPE html>
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-target="#collapse7"
-                                   href="#collapse7" class="collapsed">
+                                   href="#collapse7" class="collapsed" style="color: #92b6dc;">
                                     7. SEKTOR  VODNÉ  TOKY
                                 </a>
                             </h4>
@@ -392,7 +392,7 @@ about.phpabout.php<!DOCTYPE html>
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-target="#collapse8"
-                                   href="#collapse8" class="collapsed">
+                                   href="#collapse8" class="collapsed" style="color: #dd7dfc;">
                                     8. SEKTOR  DEPO
                                 </a>
                             </h4>
@@ -442,7 +442,7 @@ about.phpabout.php<!DOCTYPE html>
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-target="#collapse9"
-                                   href="#collapse9" class="collapsed">
+                                   href="#collapse9" class="collapsed" style="color: #00b400;">
                                     9. SEKTOR  BIOCENTRUM  KAMENÁČE
                                 </a>
                             </h4>
@@ -499,8 +499,8 @@ about.phpabout.php<!DOCTYPE html>
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-target="#collapse10"
-                                   href="#collapse10" class="collapsed">
-                                    10. HLAVNÝ  SEKTOR
+                                   href="#collapse10" class="collapsed" style="color: #475b47;">
+                                    10. HLAVNÝ  SEKTOR <small>(nevyznačené farbou)</small>
                                 </a>
                             </h4>
 
@@ -552,7 +552,7 @@ about.phpabout.php<!DOCTYPE html>
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-target="#collapse11"
-                                   href="#collapse11" class="collapsed">
+                                   href="#collapse11" class="collapsed" style="color: #bf9006;">
                                     11. SEKTOR  POĽNÉ  CESTY
                                 </a>
                             </h4>

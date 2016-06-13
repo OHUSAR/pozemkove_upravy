@@ -84,7 +84,7 @@ function getArticle() {
     <?php
 }
 
-function getArticleList() {
+function getArticleList($type) {
     if(isset($_GET['offset']) && is_numeric($_GET['offset'])){
         $offset = $_GET['offset'];
     }
@@ -92,7 +92,7 @@ function getArticleList() {
         $offset = 0;
     }
 
-    $sqlQuery = "SELECT * FROM `articles` ORDER BY date_published LIMIT 5 OFFSET ".$offset.";";
+    $sqlQuery = "SELECT * FROM `articles` WHERE type=".$type." ORDER BY date_published LIMIT 5 OFFSET ".$offset.";";
     $qResAndLink = dbConnectAndExecQuerry($sqlQuery);
     $result = $qResAndLink[0];
 
@@ -117,7 +117,7 @@ function getArticleList() {
     <div class="col-lg-12 text-center">
         <ul class="pager">
             <?php
-            $sqlQuery = "SELECT * FROM `articles` ORDER BY date_published LIMIT 5 OFFSET ".($offset + 5).";";
+            $sqlQuery = "SELECT * FROM `articles` WHERE type=".$type." ORDER BY date_published LIMIT 5 OFFSET ".($offset + 5).";";
             $qResAndLink = dbConnectAndExecQuerry($sqlQuery);
             $result = $qResAndLink[0];
             if (mysql_num_rows($result) > 0) {
@@ -131,7 +131,7 @@ function getArticleList() {
             <?php }?>
             <?php
             if($offset >= 5) {
-                $sqlQuery = "SELECT * FROM `articles` ORDER BY date_published LIMIT 5 OFFSET ".($offset - 5).";";
+                $sqlQuery = "SELECT * FROM `articles` WHERE type=".$type." ORDER BY date_published LIMIT 5 OFFSET ".($offset - 5).";";
                 $qResAndLink = dbConnectAndExecQuerry($sqlQuery);
                 $result = $qResAndLink[0];
                 if (mysql_num_rows($result) > 0) {
