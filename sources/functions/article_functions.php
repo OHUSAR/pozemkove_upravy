@@ -114,11 +114,16 @@ function getArticleList() {
     <?php
 }
 
-function getQandA() {
+function getQandA(){
 
     $sqlQuery = "SELECT * FROM `articles` WHERE type=2 ORDER BY date_published;";
     $qResAndLink = dbConnectAndExecQuerry($sqlQuery);
     $result = $qResAndLink[0];
+    ?>
+        <div class="col-lg-12">
+            <h2>fungujem</h2>
+        </div>
+    <?
 
     while ($row = mysql_fetch_array($result)) {
         $id = $row["id"];
