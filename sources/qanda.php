@@ -2,6 +2,7 @@
 <html lang="sk">
 
 <?php include('functions/content_functions.php') ?>
+<?php include('functions/login_functions.php') ?>
 <?php include('functions/article_functions.php') ?>
 <?php siteHead('Kontakt')?>
 
