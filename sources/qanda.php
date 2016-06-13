@@ -11,7 +11,6 @@
     <?php include('html/nav.html') ?>
 
     <div class="container">
-
         <div class="row" id="content">
             <div class="box">
                 <?php tabbedContactNav(1); ?>
@@ -20,15 +19,6 @@
 	        <div class="clearfix"></div>
             </div>
         </div>
-
-        <div class="row" id="content">
-            <div class="box">
-                <?php sectionHeading("Opýtajte sa nás", "")?>
-		<div class="col-lg-12"></div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-
     </div>
     <!-- /.container -->
 

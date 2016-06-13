@@ -103,6 +103,11 @@ function tabbedContactNav($active_index) {
                     Často kladené otázky
                 </a>
             </li>
+            <li class="<?php if($active_index == 2){echo "active";} ?>" role="presentation" >
+                <a class="text-success" href="ask.php#content">
+                    Opýtajte sa nás
+                </a>
+            </li>
         </ul>
     </div>
     <?php
