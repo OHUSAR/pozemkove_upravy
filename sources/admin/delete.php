@@ -25,6 +25,7 @@ if(! isset($_SESSION['admin'])){
                 if(deleteArticle()) {
                     echo "<p class='text-success text-center'>Článok bol úspešne vymazaný.</p>";
                     echo "<p class='text-center'><a href='index.php'>Späť na všetky články</a>";
+                    echo "<p class='text-center'><a href='questions.php'>Späť na všetky otázky</a>";
                 }
                 else {
                     echo "<p class='text-alert text-center'>Pri mazaní nastala chyba.</p>";

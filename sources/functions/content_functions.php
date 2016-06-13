@@ -87,3 +87,24 @@ function tabbedNav($active_index) {
     <?php
 }
 ?>
+
+<?php
+function tabbedContactNav($active_index) {
+    ?>
+    <div class="col-md-12" style="margin-bottom: 2%;">
+        <ul class="nav nav-tabs">
+            <li class="<?php if($active_index == 0){echo "active";} ?>" role="presentation" >
+                <a class="text-success" href="contact.php#content">
+                    Kontakty
+                </a>
+            </li>
+            <li class="<?php if($active_index == 1){echo "active";} ?>" role="presentation" >
+                <a class="text-success" href="qanda.php#content">
+                    Často kladené otázky
+                </a>
+            </li>
+        </ul>
+    </div>
+    <?php
+}
+?>

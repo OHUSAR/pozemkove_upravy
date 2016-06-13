@@ -10,8 +10,9 @@
 
     <div class="container">
 
-        <div class="row">
+        <div class="row" id="content">
             <div class="box">
+                <?php tabbedContactNav(0); ?>
                 <?php sectionHeading("Kontakty", "SPRÁVNY (POVOĽOVACÍ) ORGÁN")?>
                 <div class="col-md-4">
                     <img class="img-responsive img-border-left" src="img/plo.png" alt="">

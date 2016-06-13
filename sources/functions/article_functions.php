@@ -52,7 +52,7 @@ function getArticleList() {
         $offset = 0;
     }
 
-    $sqlQuery = "SELECT * FROM `articles` ORDER BY date_published LIMIT 5 OFFSET ".$offset.";";
+    $sqlQuery = "SELECT * FROM `articles` WHERE type=1 ORDER BY date_published LIMIT 5 OFFSET ".$offset.";";
     $qResAndLink = dbConnectAndExecQuerry($sqlQuery);
     $result = $qResAndLink[0];
 
@@ -82,7 +82,7 @@ function getArticleList() {
     <div class="col-lg-12 text-center">
         <ul class="pager">
             <?php
-            $sqlQuery = "SELECT * FROM `articles` ORDER BY date_published LIMIT 5 OFFSET ".($offset + 5).";";
+            $sqlQuery = "SELECT * FROM `articles` WHERE type=1 ORDER BY date_published LIMIT 5 OFFSET ".($offset + 5).";";
             $qResAndLink = dbConnectAndExecQuerry($sqlQuery);
             $result = $qResAndLink[0];
             if (mysql_num_rows($result) > 0) {
@@ -96,7 +96,7 @@ function getArticleList() {
             <?php }?>
             <?php
             if($offset >= 5) {
-                $sqlQuery = "SELECT * FROM `articles` ORDER BY date_published LIMIT 5 OFFSET ".($offset - 5).";";
+                $sqlQuery = "SELECT * FROM `articles` WHERE type=1 ORDER BY date_published LIMIT 5 OFFSET ".($offset - 5).";";
                 $qResAndLink = dbConnectAndExecQuerry($sqlQuery);
                 $result = $qResAndLink[0];
                 if (mysql_num_rows($result) > 0) {
@@ -111,5 +111,36 @@ function getArticleList() {
                 <?php }}?>
         </ul>
     </div>
+    <?php
+}
+
+function getQandA() {
+
+    $sqlQuery = "SELECT * FROM `articles` WHERE type=2 ORDER BY date_published;";
+    $qResAndLink = dbConnectAndExecQuerry($sqlQuery);
+    $result = $qResAndLink[0];
+
+    while ($row = mysql_fetch_array($result)) {
+        $id = $row["id"];
+        $author = $row["author"];
+        $heading = $row["heading"];
+        $date = $row['date_published'];
+        $content = $row['content'];
+
+        ?>
+        <div class="col-lg-12 text-center snippet">
+            <h4><?php echo $heading; ?>
+                <br>
+                <small>odpovedá <?php echo $author; ?></small>
+                <br>
+                <small><?php echo date("d. m. Y", strtotime($date));; ?></small>
+            </h4>
+            <?php echo $content; ?>
+            <hr>
+        </div>
+        <?php
+    }
+    ?>
+
     <?php
 }
