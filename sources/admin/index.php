@@ -9,24 +9,27 @@ if(! isset($_SESSION['admin'])){
 <html lang="sk">
 
 <?php include('functions/content_functions.php') ?>
+<?php include('functions/article_functions.php') ?>
+<?php include('functions/email_functions.php') ?>
 <?php siteHead("Admin")?>
 
-<body>
+    <body>
     <?php include('html/header.html') ?>
     <?php include('html/nav.html') ?>
+    
+
     <div class="container">
         <div class="row">
             <div class="box">
                 <div class="col-lg-12">
-                    <p>
-                        Vitajte v administrácií sekcií "Aktuality" a "Otázky a Odpovede".
-                    </p>
+                    <?php getArticleList(1); ?>
                 </div>
             </div>
         </div>
     </div>
-    <!-- /.container -->
-    <?php include('html/scripts.html')?>
-</body>
-
+    
+    
+    <?php include('html/scripts.html') ?>
+    </body>
+ 
 </html>

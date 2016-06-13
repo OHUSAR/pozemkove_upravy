@@ -113,6 +113,10 @@ function getArticleList($type) {
         </div>
         <?php
     }
+    $section = "index.php";
+    if($type == 2){
+        $section = "questions.php";
+    }
     ?>
     <div class="col-lg-12 text-center">
         <ul class="pager">
@@ -124,7 +128,7 @@ function getArticleList($type) {
                 ?>
                 <li class="previous">
                     <a  class="text-primary disabled"
-                        href="articles.php?offset=<?php echo ($offset + 5); ?>">
+                        href="<?php echo $section; ?>?offset=<?php echo ($offset + 5); ?>">
                         &larr; Staršie
                     </a>
                 </li>
@@ -139,7 +143,7 @@ function getArticleList($type) {
                     ?>
                     <li class="next">
                         <a  class="text-primary"
-                            href="articles.php?offset=<?php echo ($offset - 5); ?>">
+                            href="<?php echo $section; ?>?offset=<?php echo ($offset - 5); ?>">
                             Novšie &rarr;
                         </a>
                     </li>
