@@ -89,7 +89,7 @@
                         zmena vlastníckych pomerov u Navrhovateľa – úplný odchod skupiny OPERA / REALIZ z projektu Centrop a <b>ukončenie spolupráce s pôvodnými výkupcami.</b>
                     </li>
                     <li>
-                        zmena spracovateľa JPÚ DNV a ZB.  Spoločnosť K-GEO s.r.o. (Ing. Matej Klepoch) bola nahradená spoločnosťou <b>Geodézia Bratislava a.s.</b>, ktorá v katastrálnom území Záhorská Bystrica vykonáva aj projekt ROEP.
+                        <b>zmena spracovateľa JPÚ DNV a ZB.</b>  Spoločnosť K-GEO s.r.o. (Ing. Matej Klepoch) bola nahradená spoločnosťou <b>Geodézia Bratislava a.s.</b>, ktorá v katastrálnom území Záhorská Bystrica vykonáva aj projekt ROEP.
                     </li>
                 </ul>
             </div>
@@ -103,27 +103,29 @@
                 <!--                    <img class="img-responsive img-border img-left" src="img/centrop_logo.jpg" alt="">-->
                 <hr class="visible-xs">
                 <p>
-                    Po zhodnotení dovtedajšieho stavu projektu  JPÚ DNV a ZB prijal Navrhovateľ
-                    zásadné zmeny prístupu k projektu JPÚ DNV a ZB a garantuje nasledovné pravidlá
+                    Po zhodnotení dovtedajšieho stavu projektu  JPÚ DNV a ZB <b>prijal Navrhovateľ
+                    zásadné zmeny prístupu k projektu JPÚ DNV a ZB</b> a garantuje nasledovné pravidlá
                     platiace pre všetkých účastníkov JPÚ DNV a ZB:
                 </p>
                 <ol>
                     <li>
-                        <b>Len Navrhovateľ</b> prispeje na pozemky, ktoré búdú tvoriť navrhnutú
-                        hlavnú komunikačnú sieť a ostatné spoločné zariadenia a opatrenia (napr. pozemky pod suchý polder),
-                        ktorých celková výmera predstavuje spolu <b>26,34 ha</b>
+                        <b>Len Navrhovateľ</b> prispeje na pozemky, ktoré <b>búdú tvoriť navrhnutú
+                        hlavnú komunikačnú sieť a ostatné spoločné zariadenia a opatrenia</b>
+                        (napr. pozemky pod suchý polder), ktorých celková výmera <b>predstavuje spolu 26,34 ha</b>
                     </li>
                     <li>
-                        Vo všetkých častiach (sektoroch) územia JPÚ DNV a ZB <b>zostanú pôvodní vlastníci</b>
+                        Vo <b>všetkých</b> častiach (sektoroch) územia JPÚ DNV a ZB <b>zostanú pôvodní vlastníci</b>
                         (napr. tam, kde je v súčasnosti schválený Územný plán s iným funkčným využitím než orná pôda,
                         biocentrum Kamenáče, smetisko a pod.)
                     </li>
                     <li>
-                        Vlastníci JPÚ DNV a ZB sa budú môcť presúvať medzi sektormi len <b>s ich vlastným súhlasom</b>
+                        <b>Vlastníci JPÚ DNV a ZB sa budú môcť presúvať medzi sektormi len s ich vlastným súhlasom</b>
                     </li>
                 </ol>
                 <p>
-                    Ako Navrhovateľ si dávame v JPÚ DNV a ZB  za cieľ uspokojiť vlastníkov pozemkov v čo najväčšej miere.
+                    <b>
+                        Ako Navrhovateľ si dávame v JPÚ DNV a ZB  za cieľ uspokojiť vlastníkov pozemkov v čo najväčšej miere.
+                    </b>
                 </p>
             </div>
         </div>
@@ -140,10 +142,10 @@
                 </p>
                 <ul>
                     <li>
-                        v katastrálnom území <b>Záhorská Bystrica</b>:	556,7 ha (92,3 %)
+                        v katastrálnom území <b>Záhorská Bystrica</b>:	556,7 ha (92,3%)
                     </li>
                     <li>
-                        v katastrálnom území <b>Devínska Nová Ves</b>:	46,35 ha ( 7,7 %)
+                        v katastrálnom území <b>Devínska Nová Ves</b>:	46,35 ha (7,7%)
                     </li>
                 </ul>
                 <img class="img-responsive img-border img-left" src="img/1mapa.png" alt="mapa">
@@ -158,9 +160,9 @@
                 <!--                    <img class="img-responsive img-border img-left" src="img/centrop_logo.jpg" alt="">-->
                 <hr class="visible-xs">
                 <p>
-                    Územie JPÚ DNV a ZB je mimo zastavaného územia mestských častí, ktoré je prevažne využívané na poľnohospodársku činnosť,
-                    kde hospodári Družstvo podieľnikov Devín v Záhorskej Bystrici. Podľa pôvodných názvov jednotlivých honov môžete
-                    identifikovať územie:
+                    Územie JPÚ DNV a ZB je mimo zastavaného územia mestských častí, ktoré je prevažne využívané na
+                    poľnohospodársku činnosť, kde hospodári Družstvo podieľníkov Devín v Záhorskej Bystrici. Podľa
+                    pôvodných názvov jednotlivých honov môžete identifikovať územie:
                     <br>
                 </p>
                 <ul>
@@ -279,21 +281,29 @@
                 <!--                    <img class="img-responsive img-border img-left" src="img/centrop_logo.jpg" alt="">-->
                 <hr class="visible-xs">
                 <p>
-                    V súčasnosti prebieha ukončenie etapy Úvodných podkladov schválením Všeobecných zásady
-                    funkčného usporiadania. Nasledovať budú etapy Návrhu nového usporiadania a Vykonanie projektu,
-                    čo z časového hľadiska odhadujeme JPÚ DNV a ZB ešte na cca. 2 roky aj vzhľadom na veľký počet
-                    účastníkov JPÚ DNV a ZB.
+                    V súčasnosti prebieha posledná etapa tzv. Úvodných podkladov, ukončená rozhodnutím k 
+                    Všeobecným zásadám funkčného usporiadania územia č.k.: 13196/2016, 1154/09,
+                    Sp.zn.OU-BA-PLO-2016/76451/OKU (viď informáciu nižšie).
+                </p>
+
+                <p>
+                    K rozhodnutiu podali niektorí (stále rovnakí) účastníci odvolanie. Nasledovať budú etapy
+                    Návrhu nového usporiadania a Vykonanie projektu, počas ktorých bude spracovateľ za účasti
+                    zástupcu Pozemkového a lesného odboru rokovať s každým jedným účastníkom, čo z časového
+                    hľadiska odhadujeme JPÚ DNV a ZB ešte na cca. 2 roky aj vzhľadom na veľký počet účastníkov
+                    JPÚ DNV a ZB.
                 </p>
                 <p>
-                    Objektívne možno konštatovať, že priebeh pozemkových úprav spomaľujú
-                    niektorí konkrétni drobní  vlastníci, ktorí povoľovaciemu orgánu opakovane doručujú námietky
-                    proti samotným JPU, o ktorých už bolo v minulosti rozhodnuté vyššími súdnymi orgánmi.
+                    Objektívne teda možno konštatovať, že trvanie pozemkových úprav spomaľujú konkrétni
+                    drobní vlastníci opakovaným  podávaním odvolaní, námietok povoľovaciemu orgánu, o ktorých
+                    už predtým bolo rozhodnuté. Trpí tým absolútna väčšina vlastníkov pozemkov a účastníkov konania,
+                    ktorí vyjadrili súhlas s JPÚ DNV a ZB  a radi by pokračovali v procesoch ďalej.
                 </p>
                 <p>
-                    Trpí tým absolútna väčšina vlastníkov pozemkov a účastníkov konania, ktorí vyjadrili súhlas
-                    s JPÚ DNV a ZB  a radi by pokračovali v procesoch ďalej. Chceli by sme zdôrazniť,
-                    že doteraz žiadny vlastník alebo účastník JPÚ DNV a ZB  nebol nijako ukrátený a ani
-                    obmedzený na vlastníckych právach!
+                    <b>
+                        Chceli by sme zdôrazniť, že doteraz žiadny vlastník alebo účastník JPÚ DNV a 
+                        ZB  nebol nijako ukrátený a ani obmedzený na vlastníckych právach!
+                    </b>
                 </p>
 
             </div>
@@ -309,10 +319,10 @@
                 <p>
                     Navrhovateľ JPÚ DNV a ZB vystupuje tiež ako vlastník, ktorý má záujem v budúcnosti rozvíjať územie
                     v obvode pozemkových úprav a zvýšiť tak hodnotu pozemkov. Práve v tomto je pre účastníkov JPÚ DNV
-                    a ZB obrovská výhoda, že za developmentom Navrhovateľa si môžu zhodnotiť účastníci vlastné pozemky,
+                    a ZB obrovská výhoda, <b>že za developmentom Navrhovateľa si môžu zhodnotiť účastníci vlastné pozemky,
                     pretože Navrhovateľ financuje dokumentáciu a procesy ohľadom Zmien a doplnkov Územného plánu Bratislavy,
                     rieši dostupnosť infraštruktúry pre danú lokalitu a tiež sa zaviazal, že prispeje zo svojho vlastníctva
-                    na základnú dopravnú sieť územia, hrádzu pre suchý polder, čo predstavuje výmeru 26,34 ha.
+                    na základnú dopravnú sieť územia, hrádzu pre suchý polder, čo predstavuje výmeru 26,34 ha.</b>
                 </p>
                 <p>
                     Rovnako má Navrhovateľ záujem, aby aj účastníci JPÚ DNV a ZB boli priamo zapojený do procesu

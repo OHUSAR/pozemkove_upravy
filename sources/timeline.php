@@ -222,8 +222,7 @@ siteHead("Timeline");
                                         Schváli sa RNS, projekt PÚ, rozhodnutím správneho orgánu
                                     </li>
                                     <li>
-                                        Nariadi sa vykonanie projektu PÚ rozhodnutím správneho orgánu<
-                                        /p>
+                                        Nariadi sa vykonanie projektu PÚ rozhodnutím správneho orgánu
                                     <li>
                                         Prerokuje sa postupu prechodu na nové hospodárenie a pripravia sa
                                         vytýčenia nových hraníc pozemkov

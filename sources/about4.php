@@ -18,19 +18,20 @@ about.phpabout.php<!DOCTYPE html>
                 </div>
                 <div class="col-md-6">
                     <p>
-                        V obvode JPÚ DNV a ZB  sú funkčné plochy v zmysle Územného plánu Hl.mesta SR Bratislavy (ďalej  len „ÚPN“), definované nasledovne:
+                        <b>V obvode JPÚ DNV a ZB  sú funkčné plochy v zmysle Územného plánu Hl.mesta
+                        SR Bratislavy</b> (ďalej  len „ÚPN“), definované nasledovne:
                     </p>
                     <ul>
-                        <li>občianska vybavenosť celomestského a nadmestského významu, číslo funkcie 201</li>
-                        <li>priemyselná výroba, číslo funkcie 301</li>
-                        <li>energetika a telekomunikácie, číslo funkcie 602</li>
-                        <li>plochy zariadení mestskej hromadnej a autobusovej dopravy, číslo funkcie 701</li>
-                        <li>vodné plochy a toky, číslo funkcie 901</li>
-                        <li>krajinná zeleň, číslo funkcie 1002</li>
-                        <li>parky, sadovnícke úpravy, číslo funkcie 1110</li>
-                        <li>ostatná ochranná a izolačná zeleň, číslo funkcie 1130</li>
-                        <li>trvalé trávnaté porasty, číslo funkcie 1204</li>
-                        <li>orná pôda, číslo funkcie 1205</li>
+                        <li><b>občianska vybavenosť celomestského a nadmestského významu,</b> číslo funkcie 201</li>
+                        <li><b>priemyselná výroba,</b> číslo funkcie 301</li>
+                        <li><b>energetika a telekomunikácie,</b> číslo funkcie 602</li>
+                        <li><b>plochy zariadení mestskej hromadnej a autobusovej dopravy,</b> číslo funkcie 701</li>
+                        <li><b>vodné plochy a toky,</b> číslo funkcie 901</li>
+                        <li><b>krajinná zeleň,</b> číslo funkcie 1002</li>
+                        <li><b>parky, sadovnícke úpravy,</b> číslo funkcie 1110</li>
+                        <li><b>ostatná ochranná a izolačná zeleň,</b> číslo funkcie 1130</li>
+                        <li><b>trvalé trávnaté porasty,</b> číslo funkcie 1204</li>
+                        <li><b>orná pôda,</b> číslo funkcie 1205</li>
                     </ul>
                     <p>
                         <a href="img/3upi.pdf" download="UPI.pdf">Stiahnite si dokument o územnom pláne</a>
@@ -45,8 +46,8 @@ about.phpabout.php<!DOCTYPE html>
                 <?php sectionHeading("ROZVOJOVÉ LOKALITY", "")?>
                 <div class="col-md-12">
                     <p>
-                        V súčasnosti sa v časti územia  JPÚ DNV a ZB  sústredíme na zmenu územného plánu na pozemkoch
-                        pri automobilke Volkswagen Slovakia pre jej dodávateľský a logistický park s rozlohou 70 ha,
+                        V súčasnosti sa v časti územia  JPÚ DNV a ZB  <b>sústredíme na zmenu územného plánu</b> na pozemkoch
+                        pri automobilke Volkswagen Slovakia <b>pre jej dodávateľský a logistický park s rozlohou 70 ha</b>,
                         čo je proces, za ktorý je zodpovedné Hl. mesto SR Bratislava.
                     </p>
                     <p>
@@ -57,9 +58,9 @@ about.phpabout.php<!DOCTYPE html>
                         k zefektívneniu zásobovania a k zníženiu dopravného rizika a zaťaženia priľahlých ciest.
                     </p>
                     <p>
-                        V súčasnosti je na toto územie kladne prerokovaná a schválená Urbanistická štúdia, čo je
+                        V súčasnosti je na toto územie <b>kladne prerokovaná a schválená Urbanistická štúdia</b>, čo je
                         podmienkou pre zaradenie do balíka najbližších zmien a doplnkov územného plánu, a v rámci
-                        v JPÚ DNV a ZB je táto lokalita súčasťou sektoru 4 – POTENCIÁLNA ROZVOJOVÁ PLOCHA CENTROP.
+                        <b>v JPÚ DNV a ZB</b> je táto lokalita súčasťou sektoru 4 – POTENCIÁLNA ROZVOJOVÁ PLOCHA CENTROP.
                     </p>
                 </div>
                 <div class="col-md-12">

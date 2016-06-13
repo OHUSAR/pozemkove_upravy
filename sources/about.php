@@ -15,15 +15,15 @@
                 <?php sectionHeading("Pozemkové úpravy ", "všeobecne")?>
                 <div class="col-md-12">
                     <p>
-                        Pozemkové úpravy sú konanie v zmysle ustanovení Zákona SNR č.330/1991 Z.z. o pozemkových úpravách,
+                        Pozemkové úpravy sú konanie <b>v zmysle ustanovení Zákona SNR č.330/1991 Z.z.</b> o pozemkových úpravách,
                         usporiadaní pozemkového vlastníctva, pozemkových úradoch, pozemkovom fonde a o pozemkových spoločenstvách,
                         v znení neskorších predpisov.
                     </p>
                     <p>
-                        Predstavujú komplex opatrení pre scelenie a preskupenie pozemkov a vytvorenie takej štruktúry,
-                        kde každý pozemok má svoju prístupovú cestu. Potreba pozemkových úprav je vyvolaná predovšetkým
+                        <b>Predstavujú komplex opatrení pre scelenie a preskupenie pozemkov a vytvorenie takej štruktúry,
+                        kde každý pozemok má svoju prístupovú cestu.</b> Potreba pozemkových úprav je vyvolaná predovšetkým
                         historickým delením a usporiadaním pozemkov, ktoré v danom prípade JPÚ DNV a ZB  nevyhovujú plánovaniu
-                        budúceho racionálneho využitia územia. „Jednoduché“ pozemkové úpravy sa nevykonávajú v celom
+                        budúceho racionálneho využitia územia. <b>„Jednoduché“ pozemkové úpravy</b> sa nevykonávajú v celom
                         katastrálnom území, ale v menšom ohraničenom území, akým je v tomto prípade súbor pozemkov v
                         tzv. „Obvode pozemkových úprav“.
                     </p>
@@ -37,24 +37,24 @@
                 <?php sectionHeading("Výhody ", "pozemkových úprav")?>
                 <div class="col-md-6">
                     <ul>
-                        <li>každý vlastník bude mať vlastný pozemok - zníženie počtu spoluvlastníckych podielov
+                        <li><b>každý vlastník bude mať vlastný pozemok</b> - zníženie počtu spoluvlastníckych podielov
                             po pozemkových úpravách</li>
-                        <li>každý môže jednať sám za seba - zníženie rozdrobenosti pozemkového vlastníctva na 1 vlastníka</li>
-                        <li>získanie rozumnejšieho a účelnejšieho tvaru parciel</li>
-                        <li>vytvorenie dopravného prístupu ku každému pozemku (zväčša po poľných cestách)</li>
-                        <li>všetky parcely budú po pozemkových úpravách evidované v katastri nehnuteľností
-                            v registri C (nie v registri E)</li>
-                        <li>reálne vytýčenie pozemkov v teréne</li>
-                        <li>možnosť reálne nakladať so svojím majetkom - začať ho užívať,
-                            prípadne ho prenajať alebo predať</li>
-                        <li>zmapovanie skutočného stavu v teréne, spresnenie výmer parciel. Úprava tvaru pozemkov tak,
+                        <li><b>každý môže jednať sám za seba</b> - zníženie rozdrobenosti pozemkového vlastníctva na 1 vlastníka</li>
+                        <li><b>získanie rozumnejšieho a účelnejšieho tvaru parciel</b></li>
+                        <li>vytvorenie <b>dopravného prístupu ku každému pozemku</b> (zväčša po poľných cestách)</li>
+                        <li>všetky parcely budú po pozemkových úpravách <b>evidované v katastri nehnuteľností
+                            v registri C (nie v registri E)</b></li>
+                        <li><b>reálne vytýčenie pozemkov v teréne</b></li>
+                        <li>možnosť <b>reálne nakladať so svojím majetkom - začať ho užívať,
+                            prípadne ho prenajať alebo predať</b></li>
+                        <li><b>zmapovanie skutočného stavu v teréne</b>, spresnenie výmer parciel. Úprava tvaru pozemkov tak,
                             aby ich bolo možné v čo najväčšej miere samostatne užívať</li>
-                        <li>pre vlastníkov radikálne zvýšenie trhovej hodnoty pozemkov</li>
-                        <li>rozvoj poľnohospodárstva z dôvodu sprehľadnenia vlastníckych vzťahov</li>
-                        <li>podmienky pre uzatváranie korektných nájomných vzťahov na pôdu,
+                        <li>pre vlastníkov radikálne <b>zvýšenie trhovej hodnoty pozemkov</b></li>
+                        <li><b>rozvoj poľnohospodárstva</b> z dôvodu sprehľadnenia vlastníckych vzťahov</li>
+                        <li><b>podmienky pre uzatváranie korektných nájomných vzťahov na pôdu</b>,
                             vytvorenie vhodných pozemkov veľkosťou i tvarovo,
                             sprístupnenie pozemkov, vytvorenie podmienok pre vznik nových malých fariem</li>
-                        <li>zlepšenie vodohospodárskych pomerov v krajine, zabránenie veternej a vodnej erózii, eliminovanie hrozby povodní</li>
+                        <li><b>zlepšenie vodohospodárskych pomerov v krajine</b>, zabránenie veternej a vodnej erózii, eliminovanie hrozby povodní</li>
                     </ul>
                 </div>
                 <div class="col-md-6">

@@ -11,8 +11,42 @@ about.phpabout.php<!DOCTYPE html>
 <div class="container">
     <div class="row">
         <div class="box" id="content">
-            <?php sectionHeading("Informácie ", "o pozemkových úpravách")?>
+            <?php sectionHeading("Sektory ", "")?>
             <?php tabbedNav(2) ?>
+            <div class="col-md-12">
+                <p>
+                    Územie  JPÚ DNV a ZB  je veľmi rôznorodé a pre férový a rovný prístup
+                    k všetkým účastníkom pozemkových úprav Spracovateľ vytvoril SEKTORY,
+                    ktorá tvorí samostatný projektový blok a pre ktoré budú platiť férové pravidlá:
+                </p>
+                <ul>
+                    <li>
+                        <b>
+                            len Navrhovateľ prispeje na hlavnú komunikačnú sieť a ostatné spoločné zariadenia a opatrenia
+                        </b>
+                            (napr. pozemky pod suchý polder) -
+                        <b>
+                            celková výmera je spolu 26,34 ha
+                        </b>
+                    </li>
+                    <li>
+                        <b>
+                            vo všetkých častiach (sektoroch) územia JPÚ DNV a ZB zostanú pôvodní vlastníci
+                        </b>
+                            (napr. tam, kde je schválený Územný plán, biocentrum Kamenáče, smetisko a pod.)
+                    </li>
+                    <li>
+                        <b>
+                            vlastníci JPÚ DNV a ZB sa budú môcť presúvať medzi sektormi len s ich vlastným súhlasom
+                        </b>
+                    </li>
+                </ul>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="box" id="content">
             <div class="col-md-6">
                 <img class="img-responsive img-border-left" src="img/8bloky.png" alt="">
             </div>
@@ -22,7 +56,7 @@ about.phpabout.php<!DOCTYPE html>
                         <div class="panel-heading">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-target="#collapseOne"
-                                   href="#collapseOne" style="color: #d9dad9;">
+                                   href="#collapseOne" style="color: #6c08dc;">
                                     1. SEKTOR PRIEMYSELNÝ PARK (PP)
                                 </a>
                             </h4>
@@ -45,8 +79,8 @@ about.phpabout.php<!DOCTYPE html>
                                     <br>
                                     Podľa Územného plánu hlavného mesta SR Bratislavy v znení neskorších
                                     zmien a doplnkov (2007) (ďalej len „ÚPN BA“) je v lokalite vymedzená
-                                    plocha s funkčným využitím - výroba, priemysel, stavebníctvo, sklady,
-                                    výrobné služby – č. funkcie 301/F.
+                                    plocha s funkčným využitím - <b>výroba, priemysel, stavebníctvo, sklady,
+                                    výrobné služby – č. funkcie 301/F.</b>
                                 </p>
                                 <p>
                                     <b style="text-decoration: underline;">Potenciál</b>
