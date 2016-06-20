@@ -60,7 +60,7 @@ function getArticleList() {
         $offset = 0;
     }
 
-    $sqlQuery = "SELECT * FROM `articles` WEHRE type = 1 ORDER BY date_published DESC LIMIT 5 OFFSET ".$offset.";";
+    $sqlQuery = "SELECT * FROM `articles` WHERE type = 1 ORDER BY date_published DESC LIMIT 5 OFFSET ".$offset.";";
     $qResAndLink = dbConnectAndExecQuerry($sqlQuery);
     $result = $qResAndLink[0];
 
