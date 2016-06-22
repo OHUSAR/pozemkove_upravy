@@ -15,5 +15,6 @@
 
         $mailContent = "Odosieľateľ: " . $name . "\nE-mail: " . $returnMail . "\nObsah otázky: " . $content;
         $mailContent = wordwrap($mailContent, 70);
+        // TODO: EDIT EMAIL AND HEADER
         mail("filo.kovac@gmail.com", "Test mailov", $mailContent);
     }
