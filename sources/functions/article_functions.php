@@ -29,14 +29,22 @@ function getArticle() {
     <div class="col-lg-12 text-center" xmlns="http://www.w3.org/1999/html">
         <div class="col-lg-12">
             <hr>
-            <h2><?php echo $heading; ?></h2> od <h4><?php echo $author; ?></h4>
+            <h2>
+                <?php echo $heading; ?>
+                <br>
+                <small><?php echo date("d. m. Y", strtotime($date)); ?></small>
+            </h2>
+            <!-- od <h4><?php echo $author; ?></h4> -->
+            <hr>
         </div>
+        <!--
         <div class="col-lg-12">
             <small>
-                <?php echo $date; ?>
+                <?php //echo date("d. m. Y", strtotime($date)); ?>
             </small>
             <hr>
         </div>
+        -->
         <div class="col-lg-12">
             <?php echo $content; ?>
         </div>
@@ -52,7 +60,7 @@ function getArticleList() {
         $offset = 0;
     }
 
-    $sqlQuery = "SELECT * FROM `articles` WHERE type=1 ORDER BY date_published LIMIT 5 OFFSET ".$offset.";";
+    $sqlQuery = "SELECT * FROM `articles` WHERE type = 1 ORDER BY date_published DESC LIMIT 5 OFFSET ".$offset.";";
     $qResAndLink = dbConnectAndExecQuerry($sqlQuery);
     $result = $qResAndLink[0];
 
@@ -68,8 +76,8 @@ function getArticleList() {
         <div class="col-lg-12 text-center snippet">
             <h2><?php echo $heading; ?>
                 <br>
-                <small>od <?php echo $author; ?></small>
-                <br>
+                <!-- <small>od <?php echo $author; ?></small>
+                <br> -->
                 <small><?php echo date("d. m. Y", strtotime($date));; ?></small>
             </h2>
             <?php echo $content; ?>
@@ -82,7 +90,7 @@ function getArticleList() {
     <div class="col-lg-12 text-center">
         <ul class="pager">
             <?php
-            $sqlQuery = "SELECT * FROM `articles` WHERE type=1 ORDER BY date_published LIMIT 5 OFFSET ".($offset + 5).";";
+            $sqlQuery = "SELECT * FROM `articles` WHERE type = 1 ORDER BY date_published DESC LIMIT 5 OFFSET ".($offset + 5).";";
             $qResAndLink = dbConnectAndExecQuerry($sqlQuery);
             $result = $qResAndLink[0];
             if (mysql_num_rows($result) > 0) {
@@ -96,7 +104,7 @@ function getArticleList() {
             <?php }?>
             <?php
             if($offset >= 5) {
-                $sqlQuery = "SELECT * FROM `articles` WHERE type=1 ORDER BY date_published LIMIT 5 OFFSET ".($offset - 5).";";
+                $sqlQuery = "SELECT * FROM `articles` WHERE type = 1 ORDER BY date_published LIMIT DESC 5 OFFSET ".($offset - 5).";";
                 $qResAndLink = dbConnectAndExecQuerry($sqlQuery);
                 $result = $qResAndLink[0];
                 if (mysql_num_rows($result) > 0) {
@@ -116,7 +124,7 @@ function getArticleList() {
 
 function getQandA(){
 
-    $sqlQuery = "SELECT * FROM `articles` WHERE type=2 ORDER BY date_published;";
+    $sqlQuery = "SELECT * FROM `articles` WHERE type=2 ORDER BY date_published DESC;";
     $qResAndLink = dbConnectAndExecQuerry($sqlQuery);
     $result = $qResAndLink[0];
 
@@ -131,8 +139,10 @@ function getQandA(){
         <div class="col-lg-12 text-center snippet">
             <h4><?php echo $heading; ?>
                 <br>
+                <!--
                 <small>odpovedá <?php echo $author; ?></small>
                 <br>
+                -->
                 <small><?php echo date("d. m. Y", strtotime($date));; ?></small>
             </h4>
             <?php echo $content; ?>
