@@ -8,7 +8,7 @@ if(! isset($_SESSION['name'])){
 <html lang="sk">
 
 <?php   include('../functions/content_functions.php');
-        include("functions/email_form.php");
+        include("../functions/email_form.php");
 ?>
 <?php siteHead('Otázky a odpovede')?>
 
