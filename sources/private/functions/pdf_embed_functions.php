@@ -19,17 +19,16 @@ function getUserMapAndTablePath($user) {
     $dbConnection = linkToDbAndReturnConnection();
     if ($dbConnection != false) {
         $statement = $dbConnection->prepare($query);
-        $statement->bind_param("s", $username);
-        $username = $user;
+        $statement->bind_param("s", $user);
 
         $statement->execute();
+        //$result = $statement->get_result()->fetch_assoc();
+        $statement->bind_result($mapPath, $tablePath);
+        $statement->fetch();
 
-        $result = $statement->get_result()->fetch_assoc();
-
-
+        $statement->close();
         $dbConnection->close();
-
-        return [$result["file_path"], $result["table_path"]];
+        return [$mapPath, $tablePath];
     } else {
         return false;
     }
@@ -37,10 +36,16 @@ function getUserMapAndTablePath($user) {
 
 function getEmbedTagWithMap($paths) {
     global $_MAP_FOLDER;
+    if (!$paths[0]) {
+        return "<h3 class='text-center'>Súbor s mapou sa nenašiel.</h3>";
+    }
     return "<embed class='col-lg-12' src='". $_MAP_FOLDER . $paths[0] ."' height='800px'></embed>";
 }
 
 function getEmbedTagWithTable($paths) {
     global $_MAP_FOLDER;
+    if (!$paths[1]) {
+        return "<h3 class='text-center'>Súbor s tabuľkou sa nenašiel.</h3>";
+    }
     return "<embed class='col-lg-12' src='". $_MAP_FOLDER . $paths[1] ."' height='150px'></embed>";
 }
