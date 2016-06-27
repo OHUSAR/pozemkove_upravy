@@ -45,7 +45,7 @@ function dbConnectAndExecQuerry($sqlQuery) {
 }
 
 function linkToDB() {
-    if ($dbLink = mysql_connect('db1.mojhosting.sk', 'pozemkoveupra2', 'land9edit')) {
+    if ($dbLink = mysql_connect('db1.mojhosting.sk', 'pozemkoveupravy', 'land9edit')) {
         if (mysql_select_db('pozemkoveupravy', $dbLink)) {
             // database selection successful
             mysql_query("SET CHARACTER SET 'utf8'", $dbLink);
