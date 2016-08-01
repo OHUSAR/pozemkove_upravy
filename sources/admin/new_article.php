@@ -106,8 +106,8 @@ if(! isset($_SESSION['admin'])){
         selector: "textarea",  // change this value according to your HTML
         toolbar1: 'undo redo | styleselect | bold italic | image | link',
         toolbar2: 'alignleft aligncenter alignright',
-        plugins: "image imagetools link"
-
+        plugins: "image imagetools link",
+        extended_valid_elements: "embed[class=col-lg-12|src|height=800px]",
     });
 
     $('#id_date').datepicker({
