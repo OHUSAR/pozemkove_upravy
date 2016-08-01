@@ -45,7 +45,7 @@ siteHead("Timeline");
                             <div class="timeline-body">
                                 <a href="img/11technicka-sprava.pdf" download="tech-sprava.pdf">Technická správa</a>
                                 a obvod projektu:
-                                <img class="img-responsive img-border-left" src="img/12obvod_projektu_grafika.png" alt="">
+                                <img class="img-responsive img-border-left" src="img/12_obvod.jpg" alt="">
                             </div>
                         </div>
                     </li>
