@@ -241,7 +241,7 @@
                 <p>
                     Územie v rozsahu  JPÚ DNV a ZB  je zahrnuté v Územnom pláne mesta Bratislavy.
                     <br>
-                    <a href="img/3upi.pdf" download="UPI.pdf">Stiahnite si dokument o územnom pláne</a>
+                    <a href="img/3upi.pdf" download="UPI.pdf">Stiahnite si dokument o územnom pláne - územnoplánovacia informácia</a>
                 </p>
                 <img class="img-responsive img-border img-left" src="img/2obvod.png" alt="obvod">
 

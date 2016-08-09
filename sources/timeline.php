@@ -89,7 +89,7 @@ siteHead("Timeline");
                             </div>
                             <div class="timeline-body">
                                 <p>
-                                    vyhotoví sa tzv. register pôvodného stavu - súpis všetkých pozemkov každého vlastníka
+                                    Vyhotoví sa tzv. register pôvodného stavu - súpis všetkých pozemkov každého vlastníka
                                     aj s určením ich hodnoty cez BPEJ – v tejto etape dostal vlastník výpis z registra
                                     pôvodného stavu spolu s hodnotami svojich pozemkov. Táto hodnota slúži len na účely
                                     pozemkových úprav, nie je to trhová cena.

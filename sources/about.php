@@ -113,6 +113,35 @@
                 <div class="clearfix"></div>
             </div>
         </div>
+
+        <div class="row">
+            <div class="box">
+                <?php sectionHeading("PRÍPRAVNÝ VÝBOR", "")?>
+
+                <div class="col-md-12">
+                    <p>
+                        V roku 2015 pracoval prípravný výbor v nasledovnom zložení:
+                    </p>
+                    <ol>
+                        <li>JUDr. Milan Šoltes – predseda projektu, Okresný úrad, pozemkový a lesný odbor</li>
+                        <li>Ing. Eva Galbavá, Okresný úrad, pozemkový a lesný odbor</li>
+                        <li>Ing. Milan Bartošík, zástupca vlastníkov</li>
+                        <li>Ing. Pavel Boroš,  Centrop s.r.o.</li>
+                        <li>Mgr. Stanislav Kusý, Slovenský pozemkový fond</li>
+                        <li>Ing. Jaroslava Liďáková, zástupca MČ Záhorská Bystrica</li>
+                        <li>Ing. Eva Malinová, Slovenský vodohospodársky podnik š.p.</li>
+                        <li>Ing. Denisa Mikulcová, MČ Devínska Nová Ves</li>
+                        <li>Ing. Jozef Mok, Lesné pozemkové spoločenstvo v Záhorskej Bystrici</li>
+                        <li>Ing. arch. Michal Smolec, Centrop s.r.o.</li>
+                        <li>Ing. Martin Šimončík, Okresný úrad, katastrálny odbor</li>
+                        <li>JUDr. Ondrej Škodler, občianske združenie Pozemky ZB</li>
+                        <li>JUDr. Jaroslava Tkáčová, Hl.mesto SR Bratislava</li>
+                        <li>Ing. Vladimír Uhlík, Geodézia Bratislava a.s.</li>
+                    </ol>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
     </div>
     <!-- /.container -->
 
