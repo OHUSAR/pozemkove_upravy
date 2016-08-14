@@ -1,8 +1,8 @@
 <?php
 function addToNewsletter($mail){
     $servername = "localhost";
-    $username = "root";
-    $password = "";
+    $username = "ofm";
+    $password = "land9edit";
     $dbname = "land_edit";
 
     echo "<br>";
@@ -37,8 +37,8 @@ function addToNewsletter($mail){
 
 function removeFromNewsletter($mail){
     $servername = "localhost";
-    $username = "root";
-    $password = "";
+    $username = "ofm";
+    $password = "land9edit";
     $dbname = "land_edit";
     if(!checkInput($mail)){
         echo 'Zadali ste nesprávnu mailovú adresu.';
