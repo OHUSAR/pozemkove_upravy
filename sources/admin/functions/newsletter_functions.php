@@ -1,0 +1,62 @@
+<?php
+function sendNewsletter($mail, $id){
+    //zobrate od ondra - email_functions
+    $to = $mail; // TODO retrieve email-addresses from database
+
+    $subject = 'Na stránke www.pozemkoveupravy.sk pribudol nový článok.';
+
+    $headers = "From: noreply@pozemkoveupravy.sk\r\n";
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+
+    $message = '<html><body>';
+    $message .= '<h1>Testovací mail</h1>';
+    $message .= '<a href="http://188.166.16.227/">Stránka</a>';
+    $message .= '</body></html>';
+
+    mail($to, $subject, $message, $headers);
+}
+
+
+function getAllMails(){
+    $servername = "localhost";
+    $username = "ofm";
+    $password = "land9edit";
+    $dbname = "land_edit";
+
+// Create connection
+    $conn = mysqli_connect($servername, $username, $password, $dbname);
+// Check connection
+    if (!$conn) {
+        die("Connection failed: " . mysqli_connect_error());
+    }
+
+    $sql = "SELECT * FROM newsletter";
+    $result = mysqli_query($conn, $sql);
+    $ret = [];
+    if (mysqli_num_rows($result) > 0) {
+
+
+
+        while($row = mysqli_fetch_assoc($result)) {
+            $ret[] = $row["mail"];
+
+        }
+        mysqli_close($conn);
+        return $ret;
+
+    } else {
+        mysqli_close($conn);
+        return $ret;
+    }
+}
+
+function sendAll($id){
+    $tmp = getAllMails();
+    for( $i = 0; $i < count($tmp); $i++){
+        sendNewsletter($tmp[$i], $id);
+    }
+}
+
+
+?>
