@@ -1,20 +1,20 @@
 <?php
 function sendNewsletter($mail, $id){
     //zobrate od ondra - email_functions
-    $to = $mail; // TODO retrieve email-addresses from database
-
+    $to = $mail;
     $subject = 'Na stránke www.pozemkoveupravy.sk pribudol nový článok.';
 
-    $headers = "From: noreply@pozemkoveupravy.sk\r\n";
-    $headers .= "MIME-Version: 1.0\r\n";
+    $headers = "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+    $headers .= "From: noreply@pozemkoveupravy.sk\r\n";
+    $headers .= "Reply-To: noreply@pozemkoveupravy.sk\r\n";
 
     $message = '<html><body>';
-    $message .= '<h1>Testovací mail</h1>';
+    $message .= '<h1>Pribudol clanok s id '.$id.'.</h1>';
     $message .= '<a href="http://188.166.16.227/">Stránka</a>';
     $message .= '</body></html>';
 
-    mail($to, $subject, $message, $headers);
+    return(mail($to, $subject, $message, $headers));
 }
 
 
@@ -54,7 +54,11 @@ function getAllMails(){
 function sendAll($id){
     $tmp = getAllMails();
     for( $i = 0; $i < count($tmp); $i++){
-        sendNewsletter($tmp[$i], $id);
+        if(!sendNewsletter($tmp[$i], $id)){
+            echo '<br>An error occured while sending mails.';
+            return;
+        }
+        echo '<br>All emails sent successfully.';
     }
 }
 

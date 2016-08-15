@@ -41,7 +41,6 @@ if(! isset($_SESSION['admin'])){
                         <?php
                         if (isset($_POST["sendNewsletterSubmit"])) {
                             sendAll('{test ID}');
-                            echo '<br>Odoslali ste newsletter.';
                         }
                         ?>
                     </div>
