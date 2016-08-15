@@ -58,8 +58,9 @@ function sendAll($id){
             echo '<br>An error occured while sending mails.';
             return;
         }
-        echo '<br>All emails sent successfully.';
+
     }
+    echo '<br>All emails sent successfully.';
 }
 
 
