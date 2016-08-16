@@ -17,12 +17,11 @@ function sendNewsletter($mail, $id){
     return(mail($to, $subject, $message, $headers));
 }
 
-
 function getAllMails(){
-    $servername = "localhost";
-    $username = "ofm";
+    $servername = "db1.mojhosting.sk";
+    $username = "pozemkoveupravy";
     $password = "land9edit";
-    $dbname = "land_edit";
+    $dbname = "pozemkoveupravy";
 
 // Create connection
     $conn = mysqli_connect($servername, $username, $password, $dbname);
