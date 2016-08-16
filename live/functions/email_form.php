@@ -15,6 +15,7 @@
 
         $mailContent = "Odosieľateľ: " . $name . "\nE-mail: " . $returnMail . "\nObsah otázky: " . $content;
         $mailContent = wordwrap($mailContent, 70);
+        $headers = "Content-Type: text/html; charset=UTF-8";
         // TODO: EDIT EMAIL AND HEADER
-        mail("info@pozemkoveupravy.sk", "PRIVATE - question", $mailContent);
+        mail("info@pozemkoveupravy.sk", "PRIVATE - question", $mailContent, $headers);
     }
