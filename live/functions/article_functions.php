@@ -104,7 +104,7 @@ function getArticleList() {
             <?php }?>
             <?php
             if($offset >= 5) {
-                $sqlQuery = "SELECT * FROM `articles` WHERE type = 1 ORDER BY date_published LIMIT DESC 5 OFFSET ".($offset - 5).";";
+                $sqlQuery = "SELECT * FROM `articles` WHERE type = 1 ORDER BY date_published DESC LIMIT 5 OFFSET ".($offset - 5).";";
                 $qResAndLink = dbConnectAndExecQuerry($sqlQuery);
                 $result = $qResAndLink[0];
                 if (mysql_num_rows($result) > 0) {

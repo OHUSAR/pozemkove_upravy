@@ -4,6 +4,7 @@
 <?php include('functions/content_functions.php') ?>
 <?php include('functions/login_functions.php') ?>
 <?php include('functions/article_functions.php') ?>
+<?php include('functions/newsletter_functions.php') ?>
 <?php siteHead('Aktuality')?>
 
 <body>
@@ -11,7 +12,6 @@
     <?php include('html/nav.html') ?>
 
     <div class="container">
-
         <div class="row">
             <div class="box">
                 <?php
@@ -20,9 +20,30 @@
                 ?>
             </div>
         </div>
-
     </div>
     <!-- /.container -->
+
+    <div class="container" id="newsletter">
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <div class="form">
+                        <?php sectionHeading("Chcete dostávať maily s aktualitami?", "")?>
+                        <form class="login-form" method="post" action="actualities.php#newsletter">
+                            <input type="email" placeholder="Mail" name="mail" required/>
+                            <button type="submit" name="newsletterFormSubmit" value="register">Prihlásiť sa</button>
+                        </form>
+                        <?php
+                        if (isset($_POST["newsletterFormSubmit"])) {
+                            $_POST["mail"] = addslashes(strip_tags(trim($_POST["mail"])));
+                            addToNewsletter($_POST["mail"]);
+                        }
+                        ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <?php include('html/footer.html') ?>
 

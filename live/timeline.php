@@ -45,7 +45,7 @@ siteHead("Timeline");
                             <div class="timeline-body">
                                 <a href="img/11technicka-sprava.pdf" download="tech-sprava.pdf">Technická správa</a>
                                 a obvod projektu:
-                                <img class="img-responsive img-border-left" src="img/12obvod_projektu_grafika.png" alt="">
+                                <img class="img-responsive img-border-left" src="img/12_obvod.jpg" alt="">
                             </div>
                         </div>
                     </li>
@@ -89,7 +89,7 @@ siteHead("Timeline");
                             </div>
                             <div class="timeline-body">
                                 <p>
-                                    vyhotoví sa tzv. register pôvodného stavu - súpis všetkých pozemkov každého vlastníka
+                                    Vyhotoví sa tzv. register pôvodného stavu - súpis všetkých pozemkov každého vlastníka
                                     aj s určením ich hodnoty cez BPEJ – v tejto etape dostal vlastník výpis z registra
                                     pôvodného stavu spolu s hodnotami svojich pozemkov. Táto hodnota slúži len na účely
                                     pozemkových úprav, nie je to trhová cena.

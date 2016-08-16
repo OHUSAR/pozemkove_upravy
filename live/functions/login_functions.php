@@ -1,6 +1,7 @@
 <?php
 error_reporting(E_ERROR);
 
+
 function checkInputAndLogIn($username, $password) {
     $sqlQuery = "SELECT * FROM users WHERE username ='".$username."'
     AND password = '".$password."';";

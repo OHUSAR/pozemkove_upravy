@@ -34,7 +34,7 @@ about.phpabout.php<!DOCTYPE html>
                         <li><b>orná pôda,</b> číslo funkcie 1205</li>
                     </ul>
                     <p>
-                        <a href="img/3upi.pdf" download="UPI.pdf">Stiahnite si dokument o územnom pláne</a>
+                        <a href="img/3upi.pdf" download="UPI.pdf">Stiahnite si dokument o územnom pláne - územnoplánovacia informácia</a>
                     </p>
                 </div>
                 <div class="clearfix"></div>
