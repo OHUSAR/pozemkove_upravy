@@ -99,9 +99,3 @@ function checkInput($mail){
     return filter_var($mail, FILTER_VALIDATE_EMAIL);
 }
 
-
-?>
-
-
-
-

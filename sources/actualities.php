@@ -23,15 +23,15 @@
     </div>
     <!-- /.container -->
 
-    <div class="container">
+    <div class="container" id="newsletter">
         <div class="row">
             <div class="box">
                 <div class="col-lg-12">
                     <div class="form">
                         <?php sectionHeading("Chcete dostávať maily s aktualitami?", "")?>
-                        <form class="login-form" method="post">
-                            <input type="text" placeholder="Mail" name="mail" required/>
-                            <button type="submit" name="newsletterFormSubmit" value="register">Odoslať</button>
+                        <form class="login-form" method="post" action="actualities.php#newsletter">
+                            <input type="email" placeholder="Mail" name="mail" required/>
+                            <button type="submit" name="newsletterFormSubmit" value="register">Prihlásiť sa</button>
                         </form>
                         <?php
                         if (isset($_POST["newsletterFormSubmit"])) {
