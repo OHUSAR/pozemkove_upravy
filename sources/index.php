@@ -148,7 +148,7 @@
                         v katastrálnom území <b>Devínska Nová Ves</b>:	46,35 ha (7,7%)
                     </li>
                 </ul>
-                <img class="img-responsive img-border img-left" src="img/1mapa.png" alt="mapa">
+                <img class="img-responsive img-border img-left" src="img/12_obvod.jpg" alt="mapa">
             </div>
         </div>
     </div>

@@ -13,7 +13,7 @@
     <div class="container">
         <div class="row" id="content">
             <div class="box">
-                <?php tabbedContactNav(1); ?>
+                <?php tabbedNav(5); ?>
                 <?php sectionHeading("Často kladené otázky", "")?>
                 <div class="col-md-12">
                     <p>
@@ -32,6 +32,10 @@
                     <p>
                         Vyhradzujeme si tiež právo v ktoromkoľvek okamihu túto sekciu zrušiť,
                         pokiaľ usúdime, že nie je prínosom pre riešenie problematiky  JPÚ DNV a ZB.
+                    </p>
+                    <p>
+                        Ak ste odpoveď na svoju otázku nezistili ani tu,
+                        <a href="ask.php#content">opýtajte sa nás!</a>
                     </p>
                 </div>
                 <div class="clearfix"></div>

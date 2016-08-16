@@ -615,7 +615,7 @@ about.phpabout.php<!DOCTYPE html>
                                     <br>
                                 </p>
                                 <ul>
-                                    <li>vytvorenie základnej komunikačnej siete pre obsluhu celého </li>
+                                    <li>vytvorenie základnej komunikačnej siete pre obsluhu celého územia</li>
                                 </ul>
                                 <p>
                                     <b style="text-decoration: underline;">Limity</b>
@@ -628,6 +628,57 @@ about.phpabout.php<!DOCTYPE html>
                                     <b style="text-decoration: underline;">Vlastníctvo</b>
                                     <br>
                                     Pozemky pod poľné cesty budú vyčlenené z vlastníctva spoločnosti Centrop s.r.o.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default" id="panel12">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-target="#collapse12"
+                                   href="#collapse12" class="collapsed" style="color: #f5f214;">
+                                    12.SEKTOR  KOLEKTOR
+                                </a>
+                            </h4>
+
+                        </div>
+                        <div id="collapse12" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <p>
+                                    <b style="text-decoration: underline;">Veľkosť</b>
+                                    <br>
+                                    2,5 ha
+                                </p>
+                                <p>
+                                    <b style="text-decoration: underline;">Lokalita</b>
+                                    <br>
+                                    Predstavuje územie vedľa diaľnice D2, kde v križovaní s budúcim
+                                    predĺžením Eisnerovej ul. má vzniknúť  diaľničná križovatka,
+                                    zapracovaná do ÚPN BA.
+                                </p>
+                                <p>
+                                    <b style="text-decoration: underline;">Využitie</b>
+                                    <br>
+                                    Pozemky sú účelovo viazané pre vznik cestných komunikácií.
+                                </p>
+                                <p>
+                                    <b style="text-decoration: underline;">Potenciál</b>
+                                    <br>
+                                </p>
+                                <ul>
+                                    <li>vytvorenie základnej komunikačnej siete pre obsluhu celého územia</li>
+                                </ul>
+                                <p>
+                                    <b style="text-decoration: underline;">Limity</b>
+                                    <br>
+                                </p>
+                                <ul>
+                                    <li>protierózne opatrenia</li>
+                                </ul>
+                                <p>
+                                    <b style="text-decoration: underline;">Vlastníctvo</b>
+                                    <br>
+                                    Pozemky pod kolektor budú vyčlenené z vlastníctva NDS a.s.
                                 </p>
                             </div>
                         </div>

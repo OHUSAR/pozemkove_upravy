@@ -82,6 +82,11 @@ function tabbedNav($active_index) {
                     Územný plán
                 </a>
             </li>
+            <li class="<?php if($active_index == 5){echo "active";} ?>" role="presentation" >
+                <a class="text-success" href="qanda.php#content">
+                    Často kladené otázky
+                </a>
+            </li>
         </ul>
     </div>
     <?php
@@ -96,11 +101,6 @@ function tabbedContactNav($active_index) {
             <li class="<?php if($active_index == 0){echo "active";} ?>" role="presentation" >
                 <a class="text-success" href="contact.php#content">
                     Kontakty
-                </a>
-            </li>
-            <li class="<?php if($active_index == 1){echo "active";} ?>" role="presentation" >
-                <a class="text-success" href="qanda.php#content">
-                    Často kladené otázky
                 </a>
             </li>
             <li class="<?php if($active_index == 2){echo "active";} ?>" role="presentation" >
