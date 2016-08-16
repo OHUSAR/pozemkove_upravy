@@ -32,6 +32,30 @@ function siteHead($title){
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
+        <!-- Quantcast Tag -->
+        <script type="text/javascript">
+            var _qevents = _qevents || [];
+
+            (function() {
+                var elem = document.createElement('script');
+                elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+                elem.async = true;
+                elem.type = "text/javascript";
+                var scpt = document.getElementsByTagName('script')[0];
+                scpt.parentNode.insertBefore(elem, scpt);
+            })();
+
+            _qevents.push({
+                qacct:"p-pd-YGyxLByzhu"
+            });
+        </script>
+
+        <noscript>
+            <div style="display:none;">
+                <img src="//pixel.quantserve.com/pixel/p-pd-YGyxLByzhu.gif" border="0" height="1" width="1" alt="Quantcast"/>
+            </div>
+        </noscript>
+        <!-- End Quantcast tag -->
     </head>
     <?php
 }
