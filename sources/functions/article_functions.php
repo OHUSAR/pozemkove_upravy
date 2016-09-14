@@ -139,10 +139,8 @@ function getQandA(){
         <div class="col-lg-12 text-center snippet">
             <h4><?php echo $heading; ?>
                 <br>
-                <!--
                 <small>odpovedá <?php echo $author; ?></small>
                 <br>
-                -->
                 <small><?php echo date("d. m. Y", strtotime($date));; ?></small>
             </h4>
             <?php echo $content; ?>
